@@ -38,7 +38,8 @@ MASTER TRIED (Traitement de l’Information et Exploitation des Données)
 -	Traitement de problèmes d’optimisation sous GLPK ou Julia
 -	Gestion des bases de données sous SQL
 
-CAPES de Mathématiques et Admissibilité à l’Agrégation
+CAPES de Mathématiques
+Admissibilité à l’Agrégation de Mathématiques
 2005 | Sorbonne Université
 
 MAITRISE en Mathématiques Fondamentales
