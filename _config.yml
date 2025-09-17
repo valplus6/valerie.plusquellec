@@ -1,6 +1,6 @@
 kytitle: "Valérie Plusquellec"
 logo:  img/vp.jpeg
 description: "Portfolio Data Scientist - IA, Data Science"
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
 lang: fr
