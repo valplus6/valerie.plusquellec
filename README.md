@@ -39,7 +39,7 @@ MASTER TRIED (Traitement de l’Information et Exploitation des Données)
 -	Gestion des bases de données sous SQL
 
 CAPES de Mathématiques
-Admissibilité à l’Agrégation de Mathématiques
+ | Admissibilité à l’Agrégation de Mathématiques
 2005 | Sorbonne Université
 
 MAITRISE en Mathématiques Fondamentales
