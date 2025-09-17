@@ -5,11 +5,11 @@ Ancienne professeure de mathématiques, je me spécialise dans la modélisation 
 
 ## **Projets**
 
-### 1. Propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.html)  
+### 1. Propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.ipynb)  
 Modélisation et prédiction de la propagation et de la croissance des populations de frelons à pattes jaunes à l’aide d’équations aux dérivées partielles (Fisher-KPP), éléments finis et schémas d’Euler implicite. Génération de maillages hexagonaux et analyse d’impact des conditions aux bords.  
 *Outils : Python(numpy, matplotlib), FreeFem++*
 
-### 2. Analyse exploratoire de la criminalité en France (Python, pandas) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/criminalite.html)
+### 2. Analyse exploratoire de la criminalité en France (Python, pandas) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/criminalite.ipynb)
 Exploration des tendances de la criminalité sur les départements français : extraction, nettoyage, visualisation des données ouvertes, création de graphiques circulaires/barres empilées, analyse des variations selon le type de délit.  
 *Outils : Python(pandas, matplotlib, numpy)*
 
