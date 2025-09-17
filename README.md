@@ -1,6 +1,8 @@
 # **Valérie Plusquellec – Data scientist**
 
-Ancienne professeure de mathématiques, je me spécialise dans la modélisation numérique, l’analyse de données, le machine learning et la vulgarisation scientifique. Formée à la programmation (Python, R, SQL), j’aime explorer la frontière entre théorie mathématique et applications réelles : écologie, analyse criminologique, optimisation...
+Ancienne professeure de mathématiques, je me spécialise dans la modélisation numérique, l’analyse de données, le machine learning et la vulgarisation scientifique. Formée à la programmation (Python, R, SQL), j’aime explorer la frontière entre théorie mathématique et applications réelles : écologie, analyse criminologique, étude qualité, optimisation...
+
+***
 
 ## **Projets**
 
@@ -62,11 +64,12 @@ Professeure de mathématiques
 
 ## **Motivation**
 
-Créative, rigoureuse, pédagogue et force de proposition, j’aspire à mettre les mathématiques appliquées et l’analyse de données au service des grandes transitions écologique et sociétale. Toujours ouverte à la collaboration interdisciplinaire.
+Créative, rigoureuse, pédagogue et force de proposition, j’aspire à mettre les mathématiques appliquées et l’analyse de données au service des grandes transitions écologiques et sociétales.
 
 ***
 
 ## Me contacter
+
 mail : vplusquellec.prof@gmail.com
 
 Linkedin : [lien](https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/)
