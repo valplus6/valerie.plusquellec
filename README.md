@@ -1,12 +1,12 @@
-# Valérie Plusquellec – Portfolio Mathématiques & Data Science
+# **Valérie Plusquellec – Data scientist**
 
 Bienvenue !  
 Ancienne professeure de mathématiques, je me spécialise dans la modélisation numérique, l’analyse de données, le machine learning et la vulgarisation scientifique. Formée à la programmation (Python, R, SQL), j’aime explorer la frontière entre théorie mathématique et applications réelles : écologie, analyse criminologique, optimisation...
 
-## 🌟 Projets
+## **Projets**
 
 ### 1. Propagation des frelons pattes jaunes (Python, FreeFEM++)
-[Lien](https://1drv.ms/f/c/80d5f58373e22501/EmfS7rQa-5lCrSLxRy4BuEEBphqckPByo7yv7rg6jj7izA?e=tAAQVj))  
+[Lien](https://1drv.ms/f/c/80d5f58373e22501/EmfS7rQa-5lCrSLxRy4BuEEBphqckPByo7yv7rg6jj7izA?e=tAAQVj)  
 Modélisation et prédiction de la propagation et de la croissance des populations de frelons à pattes jaunes à l’aide d’équations aux dérivées partielles (Fisher-KPP), éléments finis et schémas d’Euler implicite. Génération de maillages hexagonaux et analyse d’impact des conditions aux bords.  
 *Outils : Python(numpy, matplotlib), FreeFem++*
 
@@ -22,7 +22,7 @@ Approche statistique sous R pour caractériser la qualité du café à partir d�
 
 ***
 
-## 🛠 Compétences principales
+## **Compétences principales**
 
 - Modélisation mathématique appliquée (EDP, optimisation, machine learning)
 - Programmation scientifique (Python, R, SQL, FreeFEM++, Julia)
@@ -31,17 +31,12 @@ Approche statistique sous R pour caractériser la qualité du café à partir d�
 
 ***
 
-## 🎯 Motivation
+## **Motivation**
 
 Créative, rigoureuse, pédagogue et force de proposition, j’aspire à mettre les mathématiques appliquées et l’analyse de données au service des grandes transitions écologique et sociétale. Toujours ouverte à la collaboration interdisciplinaire.
 
 ***
 
-## 📫 Me contacter
+## Me contacter
 
-valplus6.github.io/ValeriePlusquellec  
 vplusquellec.prof@gmail.com
-
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/71466852/7ead9fa6-10b8-4ace-adee-73ea47c3ce28/CV_Plusquellec.docx)
-[2](https://talks.freelancerepublik.com/regles-ecrire-readme-md-github/)
