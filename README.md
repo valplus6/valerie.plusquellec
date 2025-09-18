@@ -1,19 +1,5 @@
 # **Valérie Plusquellec – Data scientist**
-favicon: img/favicon.ico
-social_links:
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/
-  - name: Email
-    url: mailto:vplusquellec.profgmail.com
-navigation:
-  - title: Accueil
-    url: /
-  - title: Projets
-    url: /projets
-  - title: CV
-    url: /cv
-  - title: Contact
-    url: /contact
+
 Ancienne professeure de mathématiques, je me spécialise dans la modélisation numérique, l’analyse de données, le machine learning et la vulgarisation scientifique. Formée à la programmation (Python, R, SQL), j’aime explorer la frontière entre théorie mathématique et applications réelles : écologie, analyse criminologique, étude qualité, optimisation...
 
 ***
