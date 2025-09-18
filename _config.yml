@@ -4,3 +4,18 @@ description: "Portfolio Data Scientist - IA, Data Science"
 show_downloads: false
 theme: jekyll-theme-minimal
 lang: fr
+favicon: img/favicon.ico
+social_links:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/
+  - name: Email
+    url: mailto:vplusquellec.profgmail.com
+navigation:
+  - title: Accueil
+    url: /
+  - title: Projets
+    url: /projets
+  - title: CV
+    url: /cv
+  - title: Contact
+    url: /contact
