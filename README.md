@@ -54,15 +54,15 @@ Admission au **CAPES** de Mathématiques et Admissibilité à l’**Agrégation*
 
 ## **Expériences professionnelles**
 
-**Professeure de musique**
+**Professeure de musique**  
 Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 
-**Formatrice des nouveaux enseignants**
+**Formatrice des nouveaux enseignants**  
 2023-2024 | EAFC Créteil
 - Analyse des pratiques pédagogiques
 - Mise en place de techniques d’animation pour un public adulte
 
-**Professeure de mathématiques**
+**Professeure de mathématiques**  
 2007-2024 | Académie de Créteil
 - Création de supports pédagogiques avec Word, Excel et Powerpoint
 - Gestion de groupe : guider un collectif vers un objectif commun
@@ -73,11 +73,11 @@ Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 
 ## **Autres activités**
 
-**Musicienne dans le groupe The Scandi**
+**Musicienne** dans le groupe The Scandi
 - créations sur des logiciels de production musicale
 - représentations scéniques
 
-**Membre du bureau d'un supermarché participatif bio et local**
+**Membre bénévole** du bureau d'un supermarché participatif bio et local
 - création de process pour la réception de marchandises
 - optimisation des tâches
 - requêtage SQL pour obtenir les statistiques de vente
