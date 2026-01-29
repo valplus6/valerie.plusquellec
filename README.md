@@ -1,10 +1,10 @@
-# **Valérie Plusquellec – Data scientist**
+# Valérie Plusquellec – Data scientist
 
 Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Scientist. Passionnée par la résolution de problèmes complexes, j'ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.
 
 ***
 
-## **Projets**
+## PROJETS
 
 ### 1. Apprentissage supervisé : Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)
 Construction d'un modèle prédictif pour mesurer si un crédit est risqué : EDA + Analyse et comparaison de modèles décisionnels (AFD, CART, ADABOOST, SVM RBF, MLP)
@@ -24,7 +24,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ***
 
-## **Compétences principales**
+## COMPETENCES TECHNIQUES
 
 - Modélisation mathématique appliquée (EDP, optimisation, machine learning)
 - Programmation scientifique (Python, R, SQL, FreeFEM++, Julia)
@@ -35,7 +35,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ***
 
-## **Formations**
+## FORMATIONS
 
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**
 
@@ -55,7 +55,7 @@ Admission au **CAPES** de Mathématiques et Admissibilité à l’**Agrégation*
 
 ***
 
-## **Expériences professionnelles**
+## EXPERIENCES PROFESSIONNELLES
 
 **Professeure de musique**  
 Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
@@ -74,7 +74,7 @@ Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 
 ***
 
-## **Autres activités**
+## AUTRES ACTIVITES
 
 **Musicienne** dans le groupe The Scandi
 - créations sur des logiciels de production musicale
@@ -87,7 +87,7 @@ Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 
 ***
 
-## Me contacter
+## ME CONTACTER
 
 mail : vplusquellec.prof@gmail.com
 
