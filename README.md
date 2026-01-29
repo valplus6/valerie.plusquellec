@@ -38,6 +38,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 ## **Formations**
 
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**
+
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
 -	Analyse statistique de données sous R ou Python
 -	Machine learning et Deep learning sous Python
@@ -45,9 +46,11 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 -	Gestion des bases de données SQL et noSQL
 
 Admission au **CAPES** de Mathématiques et Admissibilité à l’**Agrégation** de Mathématiques
+
 2005 | Sorbonne Université
 
 **MAITRISE** en Mathématiques Fondamentales
+
 2004 | Sorbonne Université
 
 ***
@@ -77,7 +80,7 @@ Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 - créations sur des logiciels de production musicale
 - représentations scéniques
 
-**Membre bénévole** du bureau d'un supermarché participatif bio et local
+**Membre bénévole** du bureau d'un supermarché participatif bio et local Valcoop
 - création de process pour la réception de marchandises
 - optimisation des tâches
 - requêtage SQL pour obtenir les statistiques de vente
