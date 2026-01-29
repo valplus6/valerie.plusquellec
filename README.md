@@ -54,6 +54,9 @@ Admission au **CAPES** de Mathématiques et Admissibilité à l’**Agrégation*
 
 ## **Expériences professionnelles**
 
+**Professeure de musique**
+Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
+
 **Formatrice des nouveaux enseignants**
 2023-2024 | EAFC Créteil
 - Analyse des pratiques pédagogiques
