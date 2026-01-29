@@ -44,8 +44,7 @@ MASTER TRIED (Traitement de l’Information et Exploitation des Données)
 -	Traitement de problèmes d’optimisation sous GLPK ou Julia
 -	Gestion des bases de données SQL et noSQL
 
-CAPES de Mathématiques
- | Admissibilité à l’Agrégation de Mathématiques
+Admission au CAPES de Mathématiques et Admissibilité à l’Agrégation de Mathématiques
 2005 | Sorbonne Université
 
 MAITRISE en Mathématiques Fondamentales
@@ -66,6 +65,19 @@ Professeure de mathématiques
 - Gestion de groupe : guider un collectif vers un objectif commun
 - Communication non violente
 - Rédactions de comptes-rendus et présentations pendant des réunions et des séminaires en tant que coordinatrice d’équipe et de laboratoires
+
+***
+
+## **Autres activités**
+
+Musicienne :
+- créations sur des logiciels de production musicale
+- représentations scéniques
+
+Membre du bureau d'un supermarché participatif bio et local : 
+- création de process pour la réception de marchandises
+- optimisation des tâches
+- requêtage SQL pour obtenir les statistiques de vente
 
 ***
 
