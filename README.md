@@ -1,6 +1,6 @@
 # **Valérie Plusquellec – Data scientist**
 
-Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Scientist. Passionée par la résolution de problèmes, j’aspire à apporter ma créativité et mon dynamisme dans mes futures responsabilités, et j'ai à cœur de vulgariser et de synthétiser mes travaux.
+Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Scientist. Passionnée par la résolution de problèmes complexes, j'ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.
 
 ***
 
