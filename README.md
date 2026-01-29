@@ -1,6 +1,6 @@
 # **Valérie Plusquellec – Data scientist**
 
-Anciennement professeure de mathématiques, je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Scientist. Passionée par la résolution de problèmes, j’aspire à apporter ma créativité et mon dynamisme dans mes futures responsabilités, et j'ai à cœur de vulgariser et de synthétiser mes travaux.
+Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Scientist. Passionée par la résolution de problèmes, j’aspire à apporter ma créativité et mon dynamisme dans mes futures responsabilités, et j'ai à cœur de vulgariser et de synthétiser mes travaux.
 
 ***
 
@@ -37,29 +37,29 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ## **Formations**
 
-MASTER TRIED (Traitement de l’Information et Exploitation des Données)
+**MASTER TRIED (Traitement de l’Information et Exploitation des Données)**
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
 -	Analyse statistique de données sous R ou Python
 -	Machine learning et Deep learning sous Python
 -	Traitement de problèmes d’optimisation sous GLPK ou Julia
 -	Gestion des bases de données SQL et noSQL
 
-Admission au CAPES de Mathématiques et Admissibilité à l’Agrégation de Mathématiques
+Admission au **CAPES** de Mathématiques et Admissibilité à l’**Agrégation** de Mathématiques
 2005 | Sorbonne Université
 
-MAITRISE en Mathématiques Fondamentales
+**MAITRISE** en Mathématiques Fondamentales
 2004 | Sorbonne Université
 
 ***
 
 ## **Expériences professionnelles**
 
-Formatrice des nouveaux enseignants  
+**Formatrice des nouveaux enseignants**
 2023-2024 | EAFC Créteil
 - Analyse des pratiques pédagogiques
 - Mise en place de techniques d’animation pour un public adulte
 
-Professeure de mathématiques  
+**Professeure de mathématiques**
 2007-2024 | Académie de Créteil
 - Création de supports pédagogiques avec Word, Excel et Powerpoint
 - Gestion de groupe : guider un collectif vers un objectif commun
@@ -70,11 +70,11 @@ Professeure de mathématiques
 
 ## **Autres activités**
 
-Musicienne :
+**Musicienne dans le groupe The Scandi**
 - créations sur des logiciels de production musicale
 - représentations scéniques
 
-Membre du bureau d'un supermarché participatif bio et local : 
+**Membre du bureau d'un supermarché participatif bio et local**
 - création de process pour la réception de marchandises
 - optimisation des tâches
 - requêtage SQL pour obtenir les statistiques de vente
