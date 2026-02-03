@@ -37,7 +37,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ## FORMATIONS EN DATA SCIENCE
 
-**MASTER TRIED (Traitement de l’Information et Exploitation des Données)**
+**MASTER TRIED (Traitement de l’Information et Exploitation des Données)** \n
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
 -	Analyse statistique de données sous R ou Python
 -	Machine learning et Deep learning sous Python
