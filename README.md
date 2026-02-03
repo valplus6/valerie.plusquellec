@@ -6,19 +6,19 @@ Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Sci
 
 ## DERNIERS PROJETS
 
-### 1. Apprentissage supervisé : Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)
+#### 1. Apprentissage supervisé : Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)
 Construction d'un modèle prédictif pour mesurer si un crédit est risqué : EDA + Analyse et comparaison de modèles décisionnels (AFD, CART, ADABOOST, SVM RBF, MLP)
 *Outils : Python (pandas, matplotlib, seaborn, scikitLearn)*
 
-### 2. Apprentissage non supervisée : étude la qualité du café (R) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/qualite_cafe.pdf)
+#### 2. Apprentissage non supervisée : étude la qualité du café (R) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/qualite_cafe.pdf)
 Approche statistique sous R pour caractériser la qualité du café à partir d’un jeu de données complexe : analyse factorielle de données mixtes, classifications et recommandations qualitatives.  
 *Outils : R (ggplot2, dplyr)*
 
-### 3. Analyse exploratoire de données : criminalité en France (Python) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/criminalite.ipynb)
+#### 3. Analyse exploratoire de données : criminalité en France (Python) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/criminalite.ipynb)
 Exploration des tendances de la criminalité sur les départements français : extraction, nettoyage, visualisation des données ouvertes, création de graphiques circulaires/barres empilées, analyse des variations selon le type de délit.  
 *Outils : Python (pandas, matplotlib, numpy)*
 
-### 4. Méthodes numériques : propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.ipynb)  
+#### 4. Méthodes numériques : propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.ipynb)  
 Modélisation et prédiction de la propagation et de la croissance des populations de frelons à pattes jaunes à l’aide d’équations aux dérivées partielles (Fisher-KPP), éléments finis et schémas d’Euler implicite. Génération de maillages hexagonaux et analyse d’impact des conditions aux bords.  
 *Outils : Python(numpy, matplotlib), FreeFem++*
 
