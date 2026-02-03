@@ -34,6 +34,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 - Déploiement et gestion de projets sur GitHub
 
 
+
 ## FORMATIONS EN DATA SCIENCE
 
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**  
@@ -47,11 +48,14 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 2025-2026 | Hugging Face
 
 
+
 ## AUTRES DIPLOMES
 
-**CAPES**(Admission) et **Agrégation**(Admissibilité) de Mathématiques (2005) Sorbonne Université
+**CAPES**(Admission) et **Agrégation**(Admissibilité) de Mathématiques  
+2005 | Sorbonne Université
 
-**MAITRISE en Mathématiques Fondamentales** (2004) Sorbonne Université
+**MAITRISE en Mathématiques Fondamentales**  
+2004 | Sorbonne Université
 
 
 
