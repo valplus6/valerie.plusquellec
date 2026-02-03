@@ -35,22 +35,26 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ***
 
-## FORMATIONS
+## FORMATIONS EN DATA SCIENCE
 
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**
-
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
 -	Analyse statistique de données sous R ou Python
 -	Machine learning et Deep learning sous Python
 -	Traitement de problèmes d’optimisation sous GLPK ou Julia
 -	Gestion des bases de données SQL et noSQL
 
-Admission au **CAPES** de Mathématiques et Admissibilité à l’**Agrégation** de Mathématiques
+**Agent Course**
+2025-2026 | Hugging Face
 
+***
+
+## AUTRES DIPLOMES
+
+**CAPES**(Admission) et **Agrégation**(Admissibilité) de Mathématiques
 2005 | Sorbonne Université
 
-**MAITRISE** en Mathématiques Fondamentales
-
+**MAITRISE en Mathématiques Fondamentales**
 2004 | Sorbonne Université
 
 ***
