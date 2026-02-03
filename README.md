@@ -4,7 +4,7 @@ Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Sci
 
 ***
 
-## PROJETS
+## DERNIERS PROJETS
 
 ### 1. Apprentissage supervisé : Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)
 Construction d'un modèle prédictif pour mesurer si un crédit est risqué : EDA + Analyse et comparaison de modèles décisionnels (AFD, CART, ADABOOST, SVM RBF, MLP)
@@ -37,14 +37,14 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ## FORMATIONS EN DATA SCIENCE
 
-**MASTER TRIED (Traitement de l’Information et Exploitation des Données)** \n
+**MASTER TRIED (Traitement de l’Information et Exploitation des Données)** 
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
 -	Analyse statistique de données sous R ou Python
 -	Machine learning et Deep learning sous Python
 -	Traitement de problèmes d’optimisation sous GLPK ou Julia
 -	Gestion des bases de données SQL et noSQL
 
-**Agent Course**
+**AGENT COURSE** 
 2025-2026 | Hugging Face
 
 ***
