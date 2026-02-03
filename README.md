@@ -2,7 +2,7 @@
 
 Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Scientist. Passionnée par la résolution de problèmes complexes, j'ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.
 
-
+***
 
 ## DERNIERS PROJETS
 
@@ -22,7 +22,7 @@ Exploration des tendances de la criminalité sur les départements français : e
 Modélisation et prédiction de la propagation et de la croissance des populations de frelons à pattes jaunes à l’aide d’équations aux dérivées partielles (Fisher-KPP), éléments finis et schémas d’Euler implicite. Génération de maillages hexagonaux et analyse d’impact des conditions aux bords.  
 *Outils : Python(numpy, matplotlib), FreeFem++*
 
-
+***
 
 ## COMPETENCES TECHNIQUES
 
@@ -33,7 +33,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 - Apprentissage supervisé : AFD, arbre de décision (plus bagging ou boosting), SVM, MLP, CNN, RNN
 - Déploiement et gestion de projets sur GitHub
 
-
+***
 
 ## FORMATIONS EN DATA SCIENCE
 
@@ -47,7 +47,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 **AGENT COURSE**  
 2025-2026 | Hugging Face
 
-
+***
 
 ## AUTRES DIPLOMES
 
@@ -57,7 +57,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 **MAITRISE en Mathématiques Fondamentales**  
 2004 | Sorbonne Université
 
-
+***
 
 ## EXPERIENCES PROFESSIONNELLES
 
@@ -76,7 +76,7 @@ Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 - Communication non violente
 - Rédactions de comptes-rendus et présentations pendant des réunions et des séminaires en tant que coordinatrice d’équipe et de laboratoires
 
-
+***
 
 ## AUTRES ACTIVITES
 
@@ -89,7 +89,7 @@ Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 - optimisation des tâches
 - requêtage SQL pour obtenir les statistiques de vente
 
-
+***
 
 ## ME CONTACTER
 
