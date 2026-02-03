@@ -36,32 +36,37 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ## FORMATIONS EN DATA SCIENCE
 
-**MASTER TRIED (Traitement de l’Information et Exploitation des Données)** | 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
+**MASTER TRIED (Traitement de l’Information et Exploitation des Données)**  
+2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
 -	Analyse statistique de données sous R ou Python
 -	Machine learning et Deep learning sous Python
 -	Traitement de problèmes d’optimisation sous GLPK ou Julia
 -	Gestion des bases de données SQL et noSQL
 
-**AGENT COURSE** | 2025-2026 | Hugging Face
+**AGENT COURSE**  
+2025-2026 | Hugging Face
 
 
 ## AUTRES DIPLOMES
 
-**CAPES**(Admission) et **Agrégation**(Admissibilité) de Mathématiques | 2005 | Sorbonne Université
+**CAPES**(Admission) et **Agrégation**(Admissibilité) de Mathématiques (2005) Sorbonne Université
 
-**MAITRISE en Mathématiques Fondamentales** | 2004 | Sorbonne Université
+**MAITRISE en Mathématiques Fondamentales** (2004) Sorbonne Université
 
 
 
 ## EXPERIENCES PROFESSIONNELLES
 
-**Professeure de musique** | Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
+**Professeure de musique**  
+Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 
-**Formatrice des nouveaux enseignants** | 2023-2024 | EAFC Créteil
+**Formatrice des nouveaux enseignants**  
+2023-2024 | EAFC Créteil
 - Analyse des pratiques pédagogiques
 - Mise en place de techniques d’animation pour un public adulte
 
-**Professeure de mathématiques** | 2007-2024 | Académie de Créteil
+**Professeure de mathématiques**  
+2007-2024 | Académie de Créteil
 - Création de supports pédagogiques avec Word, Excel et Powerpoint
 - Gestion de groupe : guider un collectif vers un objectif commun
 - Communication non violente
