@@ -6,7 +6,7 @@ Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Sci
 
 ## DERNIERS PROJETS
 
-#### 1. Apprentissage supervisé : Prédiction de température (Python) [lien]https://github.com/valplus6/valerie.plusquellec/blob/d3a95c0747ae30e1b503b200a9ff97f665cbbf56/projets/Projet_serie_temp.ipynb)
+#### 1. Apprentissage supervisé : Prédiction de température (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/d3a95c0747ae30e1b503b200a9ff97f665cbbf56/projets/Projet_serie_temp.ipynb)
 Construction d'un réseau récurrent LSTM pour imputer des températures manquantes ou pour prédire une température future.
 *Outils : Python (pandas, matplotlib, TensorFlow, Keras)*
 
