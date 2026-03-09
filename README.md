@@ -57,11 +57,12 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ***
 
-## DIPLOMES ET EXPERIENCES DANS LE DOMAINE DES MATHEMATIQUES
+## EXPERIENCES DANS LE DOMAINE DES MATHEMATIQUES
 
+**Professeure** de mathématiques 
 **Agrégation**(Admissibilité) de Mathématiques  
-**MAITRISE** en Mathématiques Fondamentales   
-**Professeure** de mathématiques  
+**LICENCE et MAITRISE** en Mathématiques Fondamentales   
+**Classes préparatoires** MPSI et MP
 
 ***
 
