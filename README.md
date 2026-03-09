@@ -40,6 +40,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 - Aprentissage non supervisé : ACP, ACM, AFC, AFDM, classification
 - Apprentissage supervisé : AFD, arbre de décision (plus bagging ou boosting), SVM, MLP, CNN, RNN
 - Déploiement et gestion de projets sur GitHub
+- Anglais : niveau B2
 
 ***
 
@@ -61,7 +62,7 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 **Professeure** de mathématiques  
 **Agrégation**(Admissibilité) de Mathématiques  
-**LICENCE et MAITRISE** en Mathématiques Fondamentales   
+**LICENCE et M1** en Mathématiques Fondamentales   
 **Classes préparatoires** MPSI et MP
 
 ***
