@@ -4,7 +4,7 @@ Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Sci
 
 ***
 
-## DERNIERS PROJETS
+## DERNIERS PROJETS DATA
 
 #### 1. Apprentissage supervisé : Prédiction de température (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/d3a95c0747ae30e1b503b200a9ff97f665cbbf56/projets/Projet_serie_temp.ipynb)
 Construction d'un réseau récurrent LSTM pour imputer des températures manquantes ou pour prédire une température future.
@@ -22,7 +22,11 @@ Approche statistique sous R pour caractériser la qualité du café à partir d�
 Exploration des tendances de la criminalité sur les départements français : extraction, nettoyage, visualisation des données ouvertes, création de graphiques circulaires/barres empilées, analyse des variations selon le type de délit.  
 *Outils : Python (pandas, matplotlib, numpy)*
 
-#### 5. Méthodes numériques : propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.ipynb)  
+*** 
+
+## AUTRES PROJETS
+
+#### Méthodes numériques : propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.ipynb)  
 Modélisation et prédiction de la propagation et de la croissance des populations de frelons à pattes jaunes à l’aide d’équations aux dérivées partielles (Fisher-KPP), éléments finis et schémas d’Euler implicite. Génération de maillages hexagonaux et analyse d’impact des conditions aux bords.  
 *Outils : Python(numpy, matplotlib), FreeFem++*
 
@@ -48,41 +52,23 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 -	Traitement de problèmes d’optimisation sous GLPK ou Julia
 -	Gestion des bases de données SQL et noSQL
 
-**AGENT COURSE**  
+**AGENT COURSE et LLM COURSE**  
 2025-2026 | Hugging Face
 
 ***
 
-## AUTRES DIPLOMES
+## DIPLOMES ET EXPERIENCES DANS LE DOMAINE DES MATHEMATIQUES
 
-**CAPES**(Admission) et **Agrégation**(Admissibilité) de Mathématiques  
-2005 | Sorbonne Université
-
-**MAITRISE en Mathématiques Fondamentales**  
-2004 | Sorbonne Université
-
-***
-
-## EXPERIENCES PROFESSIONNELLES
-
-**Professeure de musique**  
-Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
-
-**Formatrice des nouveaux enseignants**  
-2023-2024 | EAFC Créteil
-- Analyse des pratiques pédagogiques
-- Mise en place de techniques d’animation pour un public adulte
-
-**Professeure de mathématiques**  
-2007-2024 | Académie de Créteil
-- Création de supports pédagogiques avec Word, Excel et Powerpoint
-- Gestion de groupe : guider un collectif vers un objectif commun
-- Communication non violente
-- Rédactions de comptes-rendus et présentations pendant des réunions et des séminaires en tant que coordinatrice d’équipe et de laboratoires
+**Agrégation**(Admissibilité) de Mathématiques  
+**MAITRISE** en Mathématiques Fondamentales   
+**Professeure** de mathématiques  
 
 ***
 
 ## AUTRES ACTIVITES
+
+**Professeure de musique**  
+Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 
 **Musicienne dans le groupe The Scandi**
 - créations sur des logiciels de production musicale
