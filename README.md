@@ -13,9 +13,12 @@ Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entre
 #### 1. Apprentissage supervisé : Prédiction de température (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/d3a95c0747ae30e1b503b200a9ff97f665cbbf56/projets/Projet_serie_temp.ipynb)
 Construction d'un réseau récurrent LSTM pour imputer des températures manquantes ou pour prédire une température future.
 *Outils : Python (pandas, matplotlib, TensorFlow, Keras)*
-![Exemple de prédiction](img/predict1.png)
-![Synthèse](img/predict2.png)
 
+![Alt](img/predict1.png)
+
+![Alt](img/predict2.png)
+
+<img
 #### 2. Apprentissage supervisé : Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)
 Construction d'un modèle prédictif pour mesurer si un crédit est risqué : EDA + Analyse et comparaison de modèles décisionnels (AFD, CART, ADABOOST, SVM RBF, MLP)
 *Outils : Python (pandas, matplotlib, seaborn, scikitLearn)*
