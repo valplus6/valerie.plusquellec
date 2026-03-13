@@ -5,6 +5,7 @@
 Je possède des compétences solides en modélisation et analyse de problèmes complexes, et j’ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. 
 
 Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.      
+
 img/vp.jpeg
 ***
 
@@ -51,9 +52,13 @@ Anglais : niveau B2
 
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**  
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
+
 •	Analyser et explorer des données complexes via méthodes statistiques (R, Python) avec preprocessing, visualisation et analyses factorielles
+
 •	Développer des modèles de machine learning supervisés et non supervisés (Random Forest, SVM, Arbres, MLP, CNN, RNN, Transformers, GNN)
+
 •	Modéliser et optimiser des problèmes via programmation linéaire/dynamique (GLPK/Julia)
+
 •	Exploiter des bases de données relationnelles et NoSQL pour traitement de données à large échelle (SQL, Spark)
 
 **AGENT COURSE et LLM COURSE**  
