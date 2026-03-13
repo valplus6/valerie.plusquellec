@@ -5,7 +5,7 @@
 Je possède des compétences solides en modélisation et analyse de problèmes complexes, et j’ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. 
 
 Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.      
-
+img/vp.jpeg
 ***
 
 ## DERNIERS PROJETS DATA
