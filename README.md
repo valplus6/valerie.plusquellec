@@ -14,9 +14,9 @@ Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entre
 Construction d'un réseau récurrent LSTM pour imputer des températures manquantes ou pour prédire une température future.
 *Outils : Python (pandas, matplotlib, TensorFlow, Keras)*
 
-![Alt](img/predict1.png)
+![Alt](img/predic1.png)
 
-![Alt](img/predict2.png)
+![Alt](img/predic2.png)
 
 #### 2. Apprentissage supervisé : Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)
 Construction d'un modèle prédictif pour mesurer si un crédit est risqué : EDA + Analyse et comparaison de modèles décisionnels (AFD, CART, ADABOOST, SVM RBF, MLP)
