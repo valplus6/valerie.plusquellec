@@ -1,6 +1,10 @@
 # Valérie Plusquellec – Data scientist
 
-Je suis actuellement en 2e année de Master TRIED à Paris pour devenir Data Scientist. Passionnée par la résolution de problèmes complexes, j'ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.
+Étudiante en 2e année de Master TRIED à Paris, je suis aussi spécialisée en mathématiques fondamentales et appliquées. 
+
+Je possède des compétences solides en modélisation et analyse de problèmes complexes, et j’ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. 
+
+Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.      
 
 ***
 
@@ -34,13 +38,12 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ## COMPETENCES TECHNIQUES
 
-- Modélisation mathématique appliquée (EDP, optimisation, machine learning)
-- Programmation scientifique (Python, R, SQL, FreeFEM++, Julia)
-- Analyse de données pour la prise de décision, data visualisation
-- Aprentissage non supervisé : ACP, ACM, AFC, AFDM, classification
-- Apprentissage supervisé : AFD, arbre de décision (plus bagging ou boosting), SVM, MLP, CNN, RNN
-- Déploiement et gestion de projets sur GitHub
-- Anglais : niveau B2
+Langages & Frameworks : Python (NumPy, Pandas, Scikit-Learn, TensorFlow, PyTorch), R (dplyr, ggplot2, FactoMineR), SQL/Spark, GLPK/Julia, HuggingFace (LLM/NER/embeddings)
+
+Outils & Plateformes : Git/GitHub, Jupyter Notebooks, VSCode, MySQL Workbench, Docker
+
+Anglais : niveau B2
+
 
 ***
 
@@ -48,10 +51,10 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**  
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
--	Analyse statistique de données sous R ou Python
--	Machine learning et Deep learning sous Python
--	Traitement de problèmes d’optimisation sous GLPK ou Julia
--	Gestion des bases de données SQL et noSQL
+•	Analyser et explorer des données complexes via méthodes statistiques (R, Python) avec preprocessing, visualisation et analyses factorielles
+•	Développer des modèles de machine learning supervisés et non supervisés (Random Forest, SVM, Arbres, MLP, CNN, RNN, Transformers, GNN)
+•	Modéliser et optimiser des problèmes via programmation linéaire/dynamique (GLPK/Julia)
+•	Exploiter des bases de données relationnelles et NoSQL pour traitement de données à large échelle (SQL, Spark)
 
 **AGENT COURSE et LLM COURSE**  
 2025-2026 | Hugging Face
@@ -73,13 +76,13 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 
 **Musicienne dans le groupe The Scandi**
-- créations sur des logiciels de production musicale
-- représentations scéniques
+•	Créations sur des logiciels de production musicale
+•	Représentations scéniques
 
 **Membre bénévole du bureau d'un supermarché participatif bio et local Valcoop**
-- création de process pour la réception de marchandises
-- optimisation des tâches
-- requêtage SQL pour obtenir les statistiques de vente
+•	Requêter des bases de données de ventes (SQL) pour extraire et structurer des indicateurs 
+•	Formaliser et documenter des processus opérationnels pour aligner les pratiques et améliorer l’efficacité équipes
+
 
 ***
 
