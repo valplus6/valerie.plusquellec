@@ -6,8 +6,6 @@ Je possède des compétences solides en modélisation et analyse de problèmes c
 
 Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.      
 
-
-<img src="iimg/vp.jpeg" alt="image" width="300" height="200">
 ***
 
 ## DERNIERS PROJETS DATA
