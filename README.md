@@ -44,6 +44,8 @@ Exploration des tendances de la criminalité sur les départements français : e
 Modélisation et prédiction de la propagation et de la croissance des populations de frelons à pattes jaunes à l’aide d’équations aux dérivées partielles (Fisher-KPP), éléments finis et schémas d’Euler implicite. Génération de maillages hexagonaux et analyse d’impact des conditions aux bords.  
 *Outils : Python(numpy, matplotlib), FreeFem++*
 
+![Alt](img/frelon.png)
+
 ***
 
 ## COMPETENCES TECHNIQUES
