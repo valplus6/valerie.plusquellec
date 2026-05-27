@@ -97,11 +97,6 @@ Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 •	Créations sur des logiciels de production musicale
 •	Représentations scéniques
 
-**Membre bénévole du bureau d'un supermarché participatif bio et local Valcoop**
-•	Requêter des bases de données de ventes (SQL) pour extraire et structurer des indicateurs 
-•	Formaliser et documenter des processus opérationnels pour aligner les pratiques et améliorer l’efficacité équipes
-
-
 ***
 
 ## ME CONTACTER
