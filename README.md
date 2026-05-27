@@ -1,4 +1,4 @@
-# Valérie Plusquellec – Data scientist
+# Valérie Plusquellec – Data analyst - Data Scientist
 
 Étudiante en 2e année de Master TRIED à Paris, je suis aussi spécialisée en mathématiques fondamentales et appliquées. 
 
@@ -40,11 +40,7 @@ Exploration des tendances de la criminalité sur les départements français : e
 
 ![Alt](img/EDA2.png)
 
-*** 
-
-## AUTRES PROJETS
-
-#### Méthodes numériques : propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.ipynb)  
+#### 5. Méthodes numériques : propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.ipynb)  
 Modélisation et prédiction de la propagation et de la croissance des populations de frelons à pattes jaunes à l’aide d’équations aux dérivées partielles (Fisher-KPP), éléments finis et schémas d’Euler implicite. Génération de maillages hexagonaux et analyse d’impact des conditions aux bords.  
 *Outils : Python(numpy, matplotlib), FreeFem++*
 
