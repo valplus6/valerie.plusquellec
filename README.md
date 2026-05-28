@@ -4,7 +4,7 @@
 
 Je possède des compétences solides en modélisation et analyse de problèmes complexes, et j’ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. 
 
-Je souhaite apporter ma rigueur, ma créativité et mon dynamisme à votre entreprise.      
+Je souhaite apporter ma rigueur, ma créativité et mon dynamisme dans les missions qui me seront confiées.      
 
 ***
 
@@ -52,9 +52,9 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 Langages & Frameworks : Python (NumPy, Pandas, Scikit-Learn, TensorFlow, PyTorch), R (dplyr, ggplot2, FactoMineR), SQL/Spark, GLPK/Julia, HuggingFace (LLM/NER/embeddings)
 
-Outils & Plateformes : Git/GitHub, Jupyter Notebooks, VSCode, MySQL Workbench, Docker
+Outils & Plateformes : Git/GitHub, Jupyter Notebooks, VSCode, RStudio, MySQL Workbench, Docker
 
-Anglais : niveau B2
+Anglais : avancé (écrit et oral)
 
 
 ***
@@ -64,7 +64,7 @@ Anglais : niveau B2
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**  
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
 
-•	Analyser et explorer des données complexes via méthodes statistiques (R, Python) avec preprocessing, visualisation et analyses factorielles
+•	Analyser et explorer des données complexes via méthodes statistiques (R, Python) avec nettoyage, prétraitement et visualisation
 
 •	Développer des modèles de machine learning supervisés et non supervisés (Random Forest, SVM, Arbres, MLP, CNN, RNN, Transformers, GNN)
 
