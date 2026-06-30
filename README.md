@@ -1,6 +1,6 @@
 # Valérie Plusquellec – Data Scientist
 
-Étudiante en Master TRIED au CNAM, spécialisée en Data Science, statistiques et machine learning, je recherche un stage de 6 mois en Data Science à partir d'aout 2026. 
+Étudiante en Master TRIED au CNAM, spécialisée en Data Science, statistiques et machine learning, je recherche un stage de 6 mois en Data Science à partir de septembre 2026. 
 
 Mon parcours combine une solide formation mathématique, une pratique avancée de Python/R/SQL et plusieurs projets de modélisation supervisée sur données structurées.
 
