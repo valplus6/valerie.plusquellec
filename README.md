@@ -118,6 +118,6 @@ Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
 
 ## ME CONTACTER
 
-mail : vplusquellec.prof@gmail.com
+mail : vplusquellec.data@gmail.com
 
 Linkedin : [lien](https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/)
