@@ -1,10 +1,12 @@
-# Valérie Plusquellec – Data analyst - Data Scientist
+# Valérie Plusquellec – Data Scientist
 
-Étudiante en 2e année de Master TRIED à Paris, je suis aussi spécialisée en mathématiques fondamentales et appliquées. 
+Étudiante en Master TRIED au CNAM, spécialisée en Data Science, statistiques et machine learning, je recherche un stage de 6 mois en Data Science à partir de septembre 2026. 
 
-Je possède des compétences solides en modélisation et analyse de problèmes complexes, et j’ai à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. 
+Mon parcours combine une solide formation mathématique, une pratique avancée de Python/R/SQL et plusieurs projets de modélisation supervisée sur données structurées.
 
-Je souhaite apporter ma rigueur, ma créativité et mon dynamisme dans les missions qui me seront confiées.      
+J’ai de plus à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. 
+
+Je souhaite apporter ma rigueur, ma créativité et mon dynamisme dans les missions qui me seront confiées. 
 
 ***
 
