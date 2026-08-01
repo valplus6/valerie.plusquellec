@@ -1,4 +1,8 @@
-# VALÉRIE PLUSQUELLEC
+# VALÉRIE PLUSQUELLEC 
+[LinkedIn](https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/)
+·
+[Me contacter](mailto:vplusquellec.data@gmail.com)
+
 ### Data Analyst - Data Scientist
 **Je conçois des solutions d’analyse de données permettant d’éclairer la prise de décision, de la préparation des données jusqu’à la restitution des résultats.**
 
@@ -129,11 +133,3 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 **AGENT COURSE et LLM COURSE**  
 2025-2026 | Hugging Face
-
-***
-
-## ME CONTACTER
-
-mail : vplusquellec.data@gmail.com
-
-Linkedin : [lien](https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/)
