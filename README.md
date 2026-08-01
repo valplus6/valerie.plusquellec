@@ -4,7 +4,7 @@
 [Me contacter](mailto:vplusquellec.data@gmail.com)
 
 ### Data Analyst - Data Scientist
-**Je conçois des solutions d’analyse de données permettant d’éclairer la prise de décision, de la préparation des données jusqu’à la restitution des résultats.**
+Je conçois des solutions d’analyse de données permettant d’éclairer la prise de décision, de la préparation des données jusqu’à la restitution des résultats.
 
 Étudiante en 2e année de Master TRIED – CNAM Paris
 
