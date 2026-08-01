@@ -96,11 +96,7 @@ crime-dashboard/
 
 README.md
 
-business/
-
 data/
-
-model/
 
 sql/
 
