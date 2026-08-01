@@ -48,17 +48,7 @@ Projet de machine learning supervisé et non supervisé sur un jeu de données c
 ![Alt](img/STA211.png)
 
 
-#### 3. Prédiction de température (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/d3a95c0747ae30e1b503b200a9ff97f665cbbf56/projets/Projet_serie_temp.ipynb)
-Construction d'un réseau récurrent LSTM pour imputer des températures manquantes ou pour prédire une température future. 
-
-*Outils : Python (pandas, matplotlib, TensorFlow, Keras)*
-
-![Alt](img/predic1.png)
-
-![Alt](img/predic2.png)
-
-
-#### 4. Etude la qualité du café (R) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/qualite_cafe.pdf)
+#### 3. Etude la qualité du café (R) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/qualite_cafe.pdf)
 Approche statistique sous R pour caractériser la qualité du café à partir d’un jeu de données complexe : analyse factorielle de données mixtes, classifications et recommandations qualitatives. 
 
 *Outils : R (ggplot2, dplyr)*
@@ -68,7 +58,7 @@ Approche statistique sous R pour caractériser la qualité du café à partir d�
 ![Alt](img/clust2.png)
 
 
-#### 5. Criminalité en France (Python) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/criminalite.ipynb)
+#### 4. Criminalité en France (Python) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/criminalite.ipynb)
 Exploration des tendances de la criminalité sur les départements français : extraction, nettoyage, visualisation des données ouvertes, création de graphiques circulaires/barres empilées, analyse des variations selon le type de délit. 
 
 *Outils : Python (pandas, matplotlib, numpy)*
@@ -77,13 +67,6 @@ Exploration des tendances de la criminalité sur les départements français : e
 
 ![Alt](img/EDA2.png)
 
-
-#### 5. Propagation des frelons pattes jaunes (Python, FreeFEM++) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/propagation_frelons.ipynb)  
-Modélisation et prédiction de la propagation et de la croissance des populations de frelons à pattes jaunes à l’aide d’équations aux dérivées partielles (Fisher-KPP), éléments finis et schémas d’Euler implicite. Génération de maillages hexagonaux et analyse d’impact des conditions aux bords. 
-
-*Outils : Python(numpy, matplotlib), FreeFem++*
-
-![Alt](img/frelon.png)
 
 ***
 
