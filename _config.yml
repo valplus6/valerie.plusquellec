@@ -1,7 +1,14 @@
-kytitle: "Valérie Plusquellec"
-logo:  img/vp.jpeg
-description: "Créative, rigoureuse, et pédagogue, je suis passionée par la résolution de problèmes."
+title: "Valérie Plusquellec"
+logo: /img/vp.jpeg
+
+description: >
+  Data Analyst & Data Scientist.
+  Je transforme des données complexes en analyses,
+  modèles prédictifs et outils d’aide à la décision.
+
 show_downloads: false
 theme: jekyll-theme-minimal
 lang: fr
 
+github:
+  is_project_page: false
