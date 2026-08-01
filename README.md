@@ -1,16 +1,32 @@
-# Valérie Plusquellec – Data Scientist
+# VALÉRIE PLUSQUELLEC
+### Data Analyst - Data Scientist
+**Je conçois des solutions d’analyse de données permettant d’éclairer la prise de décision, de la préparation des données jusqu’à la restitution des résultats.**
 
-Étudiante en Master TRIED au CNAM, spécialisée en Data Science, statistiques et machine learning, je recherche un stage de 6 mois en Data Science à partir de septembre 2026. 
-
-Mon parcours combine une solide formation mathématique, une pratique avancée de Python/R/SQL et plusieurs projets de modélisation supervisée sur données structurées.
-
-J’ai de plus à cœur de vulgariser et de synthétiser mes travaux pour les rendre compréhensibles par tous. 
-
-Je souhaite apporter ma rigueur, ma créativité et mon dynamisme dans les missions qui me seront confiées. 
+Étudiante en 2e année de Master TRIED – CNAM Paris
 
 ***
 
-## DERNIERS PROJETS DATA
+## CE QUE JE PEUX APPORTER
+
+**Data Analysis**
+
+Explorer des données complexes et produire des analyses exploitables.
+
+**Business Intelligence**
+
+Construire des KPI et des tableaux de bord décisionnels avec SQL et Power BI.
+
+**Machine Learning**
+
+Développer des modèles prédictifs robustes et interprétables.
+
+**Communication**
+
+Restituer les résultats de manière claire auprès d’un public technique ou métier.
+
+***
+
+## MES RÉALISATIONS
 
 #### 1. Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)  
 Construction d'un modèle prédictif pour mesurer si un crédit est risqué : EDA + Analyse et comparaison de modèles décisionnels (AFD, CART, ADABOOST, SVM RBF, MLP) 
@@ -67,52 +83,52 @@ Modélisation et prédiction de la propagation et de la croissance des populatio
 
 ***
 
-## COMPETENCES TECHNIQUES
+## MES COMPETENCES TECHNIQUES
 
-Langages & Frameworks : Python (NumPy, Pandas, Scikit-Learn, TensorFlow, PyTorch), R (dplyr, ggplot2, FactoMineR), SQL/Spark, GLPK/Julia, HuggingFace (LLM/NER/embeddings)
+**Data Analysis & Machine Learning**
+* **Python** (NumPy, Pandas, Scikit-Learn, TensorFlow, PyTorch)
+* **R** (FactoMineR, dplyr, ggplot2, cluster, mclust, randomForest, caret, missMDA)
 
-Outils & Plateformes : Git/GitHub, Jupyter Notebooks, VSCode, RStudio, MySQL Workbench, Docker
+**Business Intelligence & bases de données**
+* Power BI
+* SQL
 
-Anglais : avancé (écrit et oral)
+**Data Engineering**
+* Spark
+
+**IA générative & NLP**
+* Hugging Face
+* LLM
+* Embeddings
+* NER
+
+**Optimisation**
+* GLPK
+* Julia
+
+**Outils**
+* Git
+* GitHub
+* Docker
+* VS Code
+* Jupyter
+* RStudio
+* MySQL Workbench
+
+**Langues**
+* Français
+* Anglais (niveau avancé)
 
 
 ***
 
-## FORMATIONS EN DATA SCIENCE
+## MES FORMATIONS EN DATA
 
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**  
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
 
-•	Analyser et explorer des données complexes via méthodes statistiques (R, Python) avec nettoyage, prétraitement et visualisation
-
-•	Développer des modèles de machine learning supervisés et non supervisés (Random Forest, SVM, Arbres, MLP, CNN, RNN, Transformers, GNN)
-
-•	Modéliser et optimiser des problèmes via programmation linéaire/dynamique (GLPK/Julia)
-
-•	Exploiter des bases de données relationnelles et NoSQL pour traitement de données à large échelle (SQL, Spark)
-
 **AGENT COURSE et LLM COURSE**  
 2025-2026 | Hugging Face
-
-***
-
-## EXPERIENCES DANS LE DOMAINE DES MATHEMATIQUES
-
-**Professeure** de mathématiques  
-**Agrégation**(Admissibilité) de Mathématiques  
-**LICENCE et M1** en Mathématiques Fondamentales   
-**Classes préparatoires** MPSI et MP
-
-***
-
-## AUTRES ACTIVITES
-
-**Professeure de musique**  
-Depuis septembre 2023 | Conservatoire de Tournan-en-Brie
-
-**Musicienne dans le groupe The Scandi**
-•	Créations sur des logiciels de production musicale
-•	Représentations scéniques
 
 ***
 
