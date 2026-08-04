@@ -1,4 +1,4 @@
-# Data Analyst | Data Scientist | IA & NLP
+## Data Analyst & Data Scientist — BI, Machine Learning et IA
 [Me contacter](mailto:vplusquellec.data@gmail.com)
 ·
 [LinkedIn](https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/)
@@ -8,7 +8,7 @@ Je conçois des solutions d’analyse de données et d’intelligence artificiel
 
 ***
 
-## CE QUE JE PEUX APPORTER
+### CE QUE JE PEUX APPORTER
 
 **Data Analysis**
 
@@ -32,7 +32,7 @@ Restituer les résultats de manière claire auprès d’un public technique ou m
 
 ***
 
-## MES RÉALISATIONS
+### MES RÉALISATIONS
 
 #### 1. Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)  
 Construction d'un modèle prédictif pour mesurer si un crédit est risqué : EDA + Analyse et comparaison de modèles décisionnels (AFD, CART, ADABOOST, SVM RBF, MLP) 
@@ -72,7 +72,7 @@ Exploration des tendances de la criminalité sur les départements français : e
 
 ***
 
-## MES COMPÉTENCES TECHNIQUES
+### MES COMPÉTENCES TECHNIQUES
 
 #### Analyse de données et statistiques
 * Python : pandas, NumPy, matplotlib, seaborn
@@ -118,7 +118,7 @@ Exploration des tendances de la criminalité sur les départements français : e
 
 ***
 
-## MES FORMATIONS EN DATA
+### MES FORMATIONS EN DATA
 
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**  
 2024-2026 | CNAM Paris, Co-habilitation PARIS-SACLAY
