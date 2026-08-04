@@ -10,25 +10,15 @@ Je conçois des solutions d’analyse de données et d’intelligence artificiel
 
 ## CE QUE JE PEUX APPORTER
 
-**Data Analysis**
+**Data Analysis** : Explorer, nettoyer et structurer des données complexes afin d’en extraire des résultats exploitables.
 
-Explorer, nettoyer et structurer des données complexes afin d’en extraire des résultats exploitables.
+**Business Intelligence** : Définir des indicateurs métier et construire des tableaux de bord décisionnels avec SQL et Power BI.
 
-**Business Intelligence**
+**Machine Learning** : Développer, évaluer et comparer des modèles prédictifs robustes et interprétables.
 
-Définir des indicateurs métier et construire des tableaux de bord décisionnels avec SQL et Power BI.
+**Intelligence artificielle & NLP** : Concevoir des prototypes reposant sur le deep learning, les modèles de langage, les embeddings et le traitement automatique du langage.
 
-**Machine Learning**
-
-Développer, évaluer et comparer des modèles prédictifs robustes et interprétables.
-
-**Intelligence artificielle & NLP**
-
-Concevoir des prototypes reposant sur le deep learning, les modèles de langage, les embeddings et le traitement automatique du langage.
-
-**Communication**
-
-Restituer les résultats de manière claire auprès d’un public technique ou métier.
+**Communication** : Restituer les résultats de manière claire auprès d’un public technique ou métier.
 
 ***
 
