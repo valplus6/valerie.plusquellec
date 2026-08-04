@@ -3,7 +3,7 @@
 ·
 [LinkedIn](https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/)
 
-Je conçois des solutions d’analyse de données permettant d’éclairer la prise de décision, de la préparation des données jusqu’à la restitution des résultats.
+Je conçois des solutions d’analyse de données et d’intelligence artificielle permettant d’éclairer la prise de décision, de la préparation des données jusqu’à la modélisation et à la restitution des résultats.
 
 
 ***
