@@ -1,19 +1,21 @@
 
-CREATE DATABASE crime_dashboard;
+CREATE DATABASE IF NOT EXISTS crime_dashboard;
 USE crime_dashboard;
+
+DROP TABLE IF EXISTS fact_delinquance;
+DROP TABLE IF EXISTS dim_temps; 
+DROP TABLE IF EXISTS dim_departement;
+DROP TABLE IF EXISTS dim_indicateur;
 
 -- Dimension temps
 CREATE TABLE dim_temps (
     annee SMALLINT PRIMARY KEY
 );
 
-
 -- Dimension département
 CREATE TABLE dim_departement (
     code_departement VARCHAR(3) PRIMARY KEY,
-    nom_departement VARCHAR(100) NOT NULL,
-    code_region SMALLINT NOT NULL,
-    nom_region VARCHAR(100) NOT NULL
+    code_region SMALLINT NOT NULL
 );
 
 
