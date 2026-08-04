@@ -1,149 +1,164 @@
-# Crime Analytics Dashboard
+# Tableau de bord décisionnel de la délinquance en France
+> **Projet de Data Analysis & Business Intelligence**
+>
+> **Objectif :** concevoir une chaîne décisionnelle complète permettant de transformer des données ouvertes en indicateurs métier et en tableau de bord interactif.
+>
+> **Technologies :** Python • MySQL • SQL • Power BI
 
-*capture du dashboard en pleine largeur*
+## Objectif du projet
 
-# plan 
-1. Besoin métier
-        ↓
-2. Architecture de la solution (architecture.png)
-        ↓
-3. Exploration des données (quelques graphiques issus du notebook)
-        ↓
-4. Schéma décisionnel (schema_etoile.png)
-        ↓
-5. Dashboard final (dashboard.png)
-        ↓
-6. Compétences démontrées
+Les administrations et collectivités disposent de nombreuses données publiques sur la délinquance. Cependant, ces données sont difficilement exploitables sans un outil permettant de suivre les principaux indicateurs, de comparer les territoires et d'identifier les évolutions au cours du temps.
 
+L'objectif de ce projet est de concevoir une **chaîne décisionnelle complète**, depuis la préparation des données jusqu'à la réalisation d'un tableau de bord interactif destiné à faciliter l'analyse de la délinquance en France métropolitaine.
 
+---
 
+## Architecture de la solution
 
-## Contexte
+![Architecture de la solution](images/architecture.png)
 
-Les statistiques de la délinquance constituent un outil essentiel pour le pilotage des politiques publiques de sécurité. Cependant, l’exploitation de ces données reste complexe en raison de leur volume, de leur granularité et de leur évolution dans le temps.
+Le projet suit les principales étapes d'un processus décisionnel :
 
-Ce projet simule une mission de Data Analyst consistant à transformer des données ouvertes en un outil d’aide à la décision destiné aux responsables territoriaux.
+1. Collecte des données publiques (data.gouv.fr)
+2. Préparation et nettoyage sous Python
+3. Conception d'un entrepôt de données relationnel sous MySQL
+4. Construction d'un schéma en étoile
+5. Création de vues SQL dédiées aux indicateurs métier
+6. Restitution des résultats dans un tableau de bord Power BI
 
+---
 
-## Objectifs
+## Données utilisées
 
-Concevoir une solution décisionnelle permettant de :
+**Base statistique de la délinquance enregistrée par la Police et la Gendarmerie nationales** : https://www.data.gouv.fr/
 
-* suivre l’évolution de la délinquance entre 2016 et 2024 ;
-* comparer les territoires (départements et régions) ;
-* identifier les catégories d’infractions les plus représentées ;
-* construire des KPI exploitables par les décideurs ;
-* restituer ces informations au travers d’un tableau de bord interactif.
+Le jeu de données couvre l'ensemble des départements métropolitains entre **2016 et 2024** et contient notamment :
 
-## Démarche
+- 18 catégories de crimes et délits
+- les taux pour mille habitants (ou logements)
+- les populations INSEE
+- les codes géographiques des départements et régions
 
-Données ouvertes (data.gouv.fr)
+---
 
-              │
-              ▼
-              
- Préparation et nettoyage (Python)
- 
-              │
-              ▼
-              
- Modèle décisionnel SQL (schéma en étoile)
- 
-              │
-              ▼
-              
- Construction des KPI
- 
-              │
-              ▼
- Dashboard Power BI
- 
-              │
-              ▼
- Aide à la décision
+## Exploration et préparation des données
 
- ## Exploration des données
-
-Le nettoyage et l'analyse exploratoire ont été réalisés sous Python dans un notebook Jupyter.
+L'exploration des données a été réalisée sous Python avec **Pandas**.
 
 Principales étapes :
 
-- import et contrôle des données ;
-- traitement des valeurs manquantes ;
-- vérification de la cohérence des indicateurs ;
-- analyses descriptives ;
-- visualisations exploratoires.
+- import des données
+- contrôle de la qualité
+- nettoyage
+- vérification des valeurs manquantes
+- analyses descriptives
+- visualisations exploratoires
 
-➡️ Le notebook complet est disponible dans `codes/notebooks/01_exploration.ipynb`.
+Le notebook complet est disponible dans :
 
-## Dashboard
+```
+codes/notebooks/01_exploration.ipynb
+```
 
-Quelques captures d’écran :
+---
 
-* vue d’ensemble ;
-* carte de France ;
-* évolution temporelle ;
-* analyse par catégories.
+## Modélisation décisionnelle
 
-## Principaux KPI
+Les données ont été organisées sous la forme d'un **schéma en étoile** afin de faciliter les analyses décisionnelles.
 
-Exemples :
+![Schéma en étoile](images/schema_etoile.png)
 
-* nombre total de faits enregistrés ;
-* évolution annuelle ;
-* département le plus exposé ;
-* région la plus exposée ;
-* principales catégories de délits ;
-* évolution des infractions sur neuf années.
+Le modèle comprend :
 
-## Principaux enseignements
+- une table de faits (*fact_delinquance*)
+- trois dimensions :
+  - Temps
+  - Département
+  - Indicateur
 
-C’est probablement la partie la plus importante.
+Cette modélisation permet de réaliser efficacement des analyses temporelles, territoriales et par catégorie d'infraction.
 
-Par exemple :
+---
 
-* certaines régions concentrent durablement un volume élevé de faits enregistrés ;
-* les écarts entre départements d’une même région peuvent être significatifs ;
-* certaines catégories d’infractions présentent des tendances plus marquées que d’autres ;
-* les visualisations permettent d’identifier rapidement les territoires nécessitant une attention particulière.
+## Requêtes SQL
 
+Le projet met en œuvre différentes techniques SQL :
 
-## Technologies utilisées
+- création d'un entrepôt de données
+- alimentation des dimensions et de la table de faits
+- vues analytiques
+- fonctions analytiques (`LAG`, `RANK`)
+- fonctions de fenêtrage (*Window Functions*)
+- agrégations
+- contrôles qualité des données
 
-Préparation des données	: Python (pandas, NumPy)
+Les scripts sont disponibles dans :
 
-Modélisation décisionnelle :	MySQL
+```
+codes/sql/
+```
 
-Requêtes analytiques	: SQL
+---
 
-Visualisation	: Power BI
+## Tableau de bord Power BI
 
-Versioning :	Git
+Le tableau de bord permet notamment de :
 
-## Structure du projet
+- suivre les principaux indicateurs nationaux
+- comparer les départements
+- analyser les évolutions annuelles
+- comparer les régions
+- identifier les territoires les plus exposés
+- filtrer dynamiquement les résultats
 
-crime-dashboard/
+![Dashboard](powerbi/dashboard.png)
+
+---
+
+## Compétences mises en œuvre
+
+### Data Engineering
+
+- Préparation et nettoyage des données
+- ETL
+- Modélisation relationnelle
+- Schéma en étoile
+
+### SQL
+
+- Création d'un entrepôt de données
+- Jointures
+- Vues SQL
+- CTE
+- Fonctions analytiques (`LAG`, `RANK`)
+- Window Functions
+- Contrôles qualité
+
+### Business Intelligence
+
+- Construction d'indicateurs métier (KPI)
+- Modélisation décisionnelle
+- Tableau de bord interactif Power BI
+
+### Python
+
+- Analyse exploratoire des données
+- Nettoyage et transformation des données
+- Visualisations
+---
+
+## Arborescence du projet
+
+```
+Crime-Dashboard/
 
 README.md
 
-data/
+codes/
+├── notebooks/
+└── sql/
 
-sql/
+images/
 
 powerbi/
-
-img/
-
-## Compétences démontrées
-
-* Analyse exploratoire de données
-* Nettoyage et préparation de données
-* Modélisation décisionnelle (schéma en étoile)
-* SQL analytique
-* Construction de KPI
-* Développement d’un dashboard Power BI
-* Storytelling et restitution des résultats
-
-## Source des données
-
-Les données proviennent des bases statistiques de la délinquance enregistrée par la police et la gendarmerie nationales, publiées en Open Data sur la plateforme data.gouv.fr.
+```
