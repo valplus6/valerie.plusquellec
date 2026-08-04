@@ -1,4 +1,9 @@
 # Tableau de bord décisionnel de la délinquance en France
+> **Projet de Data Analysis & Business Intelligence**
+>
+> **Objectif :** concevoir une chaîne décisionnelle complète permettant de transformer des données ouvertes en indicateurs métier et en tableau de bord interactif.
+>
+> **Technologies :** Python • MySQL • SQL • Power BI
 
 ## Objectif du projet
 
@@ -25,11 +30,7 @@ Le projet suit les principales étapes d'un processus décisionnel :
 
 ## Données utilisées
 
-Source :
-
-**Base statistique de la délinquance enregistrée par la Police et la Gendarmerie nationales**
-
-https://www.data.gouv.fr/
+**Base statistique de la délinquance enregistrée par la Police et la Gendarmerie nationales** : https://www.data.gouv.fr/
 
 Le jeu de données couvre l'ensemble des départements métropolitains entre **2016 et 2024** et contient notamment :
 
@@ -118,34 +119,32 @@ Le tableau de bord permet notamment de :
 
 ### Data Engineering
 
-- Nettoyage et préparation de données
+- Préparation et nettoyage des données
 - ETL
 - Modélisation relationnelle
 - Schéma en étoile
 
 ### SQL
 
-- MySQL
+- Création d'un entrepôt de données
 - Jointures
-- Agrégations
-- Vues
+- Vues SQL
 - CTE
-- Fonctions analytiques
+- Fonctions analytiques (`LAG`, `RANK`)
 - Window Functions
+- Contrôles qualité
 
 ### Business Intelligence
 
-- Construction de KPI
+- Construction d'indicateurs métier (KPI)
 - Modélisation décisionnelle
-- Dashboard Power BI
+- Tableau de bord interactif Power BI
 
 ### Python
 
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-
+- Analyse exploratoire des données
+- Nettoyage et transformation des données
+- Visualisations
 ---
 
 ## Arborescence du projet
