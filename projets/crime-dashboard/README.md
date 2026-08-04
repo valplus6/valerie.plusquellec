@@ -2,6 +2,22 @@
 
 *capture du dashboard en pleine largeur*
 
+# plan 
+1. Besoin métier
+        ↓
+2. Architecture de la solution (architecture.png)
+        ↓
+3. Exploration des données (quelques graphiques issus du notebook)
+        ↓
+4. Schéma décisionnel (schema_etoile.png)
+        ↓
+5. Dashboard final (dashboard.png)
+        ↓
+6. Compétences démontrées
+
+
+
+
 ## Contexte
 
 Les statistiques de la délinquance constituent un outil essentiel pour le pilotage des politiques publiques de sécurité. Cependant, l’exploitation de ces données reste complexe en raison de leur volume, de leur granularité et de leur évolution dans le temps.
@@ -45,6 +61,20 @@ Données ouvertes (data.gouv.fr)
               │
               ▼
  Aide à la décision
+
+ ## Exploration des données
+
+Le nettoyage et l'analyse exploratoire ont été réalisés sous Python dans un notebook Jupyter.
+
+Principales étapes :
+
+- import et contrôle des données ;
+- traitement des valeurs manquantes ;
+- vérification de la cohérence des indicateurs ;
+- analyses descriptives ;
+- visualisations exploratoires.
+
+➡️ Le notebook complet est disponible dans `codes/notebooks/01_exploration.ipynb`.
 
 ## Dashboard
 
