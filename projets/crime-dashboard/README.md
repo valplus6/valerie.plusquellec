@@ -163,16 +163,3 @@ images/
 
 powerbi/
 ```
-
----
-
-## Technologies utilisées
-
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
-- MySQL
-- SQL
-- Power BI
-- Git / GitHub
