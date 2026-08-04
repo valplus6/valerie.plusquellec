@@ -1,0 +1,19 @@
+id_indicateur,indicateur,unite_de_compte,denominateur_taux
+1,"Cambriolages de logement",Infraction,logements
+2,"Destructions et dégradations volontaires",Infraction,population
+3,"Escroqueries et fraudes aux moyens de paiement",Victime,population
+4,Homicides,Victime,population
+5,"Tentatives d'homicide",Victime,population
+6,"Trafic de stupéfiants","Mis en cause",population
+7,"Usage de stupéfiants","Mis en cause",population
+8,"Usage de stupéfiants (AFD)","Mis en cause",population
+9,"Usage de stupéfiants (hors AFD)","Mis en cause",population
+10,"Violences physiques hors cadre familial",Victime,population
+11,"Violences physiques intrafamiliales",Victime,population
+12,"Violences sexuelles",Victime,population
+13,"Vols avec armes",Infraction,population
+14,"Vols d'accessoires sur véhicules",Véhicule,population
+15,"Vols dans les véhicules",Véhicule,population
+16,"Vols de véhicule",Véhicule,population
+17,"Vols sans violence contre des personnes","Victime entendue",population
+18,"Vols violents sans arme",Infraction,population
