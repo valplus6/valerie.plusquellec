@@ -26,6 +26,7 @@ Je conçois des solutions d’analyse de données et d’intelligence artificiel
 
 #### 1. Tableau de bord décisionnel de la délinquance en France (Python • SQL • Power BI) [⁠Lien](projets/crime-dashboard)
 ![Alt](projets/crime-dashboard/images/dashboard.png)
+
 Conception d’une chaîne décisionnelle complète à partir de données ouvertes : préparation et exploration des données sous Python, modélisation d’un entrepôt de données en schéma en étoile sous MySQL, création de vues SQL dédiées aux indicateurs métier et réalisation d’un tableau de bord interactif Power BI pour analyser les tendances nationales, les disparités territoriales et les principaux indicateurs de délinquance.
 
 *Outils : Python (Pandas, Matplotlib), MySQL, SQL, Power BI*
@@ -42,6 +43,7 @@ Développement d’un modèle prédictif de risque de crédit à partir de donn�
 
 #### 3. Classification multi-classe sur données complexes à haute dimension (R) [lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/STA211_Projet_rapport.pdf)
 ![Alt](img/STA211.png)
+
 Réalisation d’une analyse statistique et prédictive sur des données de grande dimension combinant réduction de dimension, apprentissage non supervisé et classification supervisée afin d’étudier l’apport de différentes représentations des données sur les performances des modèles.
 
 *Outils :  R (FactoMineR, ggplot2, dplyr, randomForest, caret)*
