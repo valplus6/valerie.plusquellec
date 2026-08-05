@@ -24,37 +24,35 @@ Je conçois des solutions d’analyse de données et d’intelligence artificiel
 
 ## UNE SELECTION DE PROJETS
 
-#### Tableau de bord décisionnel de la délinquance en France (Python • SQL • Power BI) [⁠Lien](projets/crime-dashboard)
-
+#### 1. Tableau de bord décisionnel de la délinquance en France (Python • SQL • Power BI) [⁠Lien](projets/crime-dashboard)
+![Alt](projets/crime-dashboard/images/dashboard.png)
 Conception d’une chaîne décisionnelle complète à partir de données ouvertes : préparation et exploration des données sous Python, modélisation d’un entrepôt de données en schéma en étoile sous MySQL, création de vues SQL dédiées aux indicateurs métier et réalisation d’un tableau de bord interactif Power BI pour analyser les tendances nationales, les disparités territoriales et les principaux indicateurs de délinquance.
 
-Outils : Python (Pandas, Matplotlib), MySQL, SQL, Power BI
+*Outils : Python (Pandas, Matplotlib), MySQL, SQL, Power BI*
 
-![Alt](projets/crime-dashboard/images/dashboard.png)
+***
 
 #### 2. Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)  
+![Alt](img/classif.png)
 Développement d’un modèle prédictif de risque de crédit à partir de données bancaires : analyse exploratoire, comparaison de plusieurs modèles de classification (AFD, CART, AdaBoost, SVM RBF, MLP) et évaluation de leurs performances afin d’identifier la solution la plus adaptée à la décision d’octroi.
 
 *Outils : Python (pandas, matplotlib, seaborn, scikitLearn)*
 
-![Alt](img/classif.png)
-
+***
 
 #### 3. Classification multi-classe sur données complexes à haute dimension (R) [lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/STA211_Projet_rapport.pdf)
+![Alt](img/STA211.png)
 Réalisation d’une analyse statistique et prédictive sur des données de grande dimension combinant réduction de dimension, apprentissage non supervisé et classification supervisée afin d’étudier l’apport de différentes représentations des données sur les performances des modèles.
 
 *Outils :  R (FactoMineR, ggplot2, dplyr, randomForest, caret)*
 
-![Alt](img/STA211.png)
-
+***
 
 #### 4. Etude de la qualité du café (R) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/qualite_cafe.pdf)
+![Alt](img/clust2.png)
 Analyse statistique de données mixtes visant à identifier les profils de qualité du café à partir de caractéristiques sensorielles et physico-chimiques. Le projet combine analyse factorielle, classification et interprétation des groupes obtenus afin de proposer une typologie des cafés.
 
 *Outils : R (FactoMineR, missMDA, ggplot2, dplyr)*
-
-![Alt](img/clust2.png)
-
 
 ***
 
