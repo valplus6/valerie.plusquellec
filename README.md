@@ -33,7 +33,7 @@ Conception d’une chaîne décisionnelle complète à partir de données ouvert
 
 ***
 
-#### 2. Décision d'accorder ou non un crédit bancaire (Python) [lien](https://github.com/valplus6/valerie.plusquellec/blob/6284faab3de8cf0aa3d2856b58f92262285bc122/projets/RCP209_Projet_Plusquellec.pdf)  
+#### 2. Décision d'accorder ou non un crédit bancaire (Python) [lien](projets/credit-risk)  
 ![Alt](img/classif.png)
 Développement d’un modèle prédictif de risque de crédit à partir de données bancaires : analyse exploratoire, comparaison de plusieurs modèles de classification (AFD, CART, AdaBoost, SVM RBF, MLP) et évaluation de leurs performances afin d’identifier la solution la plus adaptée à la décision d’octroi.
 
@@ -41,7 +41,7 @@ Développement d’un modèle prédictif de risque de crédit à partir de donn�
 
 ***
 
-#### 3. Classification multi-classe sur données complexes à haute dimension (R) [lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/STA211_Projet_rapport.pdf)
+#### 3. Classification multi-classe sur données complexes à haute dimension (R) [lien](projets/multiclass-classification)
 ![Alt](img/STA211.png)
 
 Réalisation d’une analyse statistique et prédictive sur des données de grande dimension combinant réduction de dimension, apprentissage non supervisé et classification supervisée afin d’étudier l’apport de différentes représentations des données sur les performances des modèles.
@@ -50,7 +50,7 @@ Réalisation d’une analyse statistique et prédictive sur des données de gran
 
 ***
 
-#### 4. Etude de la qualité du café (R) [Lien](https://github.com/valplus6/valerie.plusquellec/blob/main/projets/qualite_cafe.pdf)
+#### 4. Etude de la qualité du café (R) [Lien](projets/coffee-quality)
 ![Alt](img/clust2.png)
 Analyse statistique de données mixtes visant à identifier les profils de qualité du café à partir de caractéristiques sensorielles et physico-chimiques. Le projet combine analyse factorielle, classification et interprétation des groupes obtenus afin de proposer une typologie des cafés.
 
