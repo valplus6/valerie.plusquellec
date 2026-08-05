@@ -1,7 +1,5 @@
 # Tableau de bord décisionnel de la délinquance en France
-> **Projet de Data Analysis & Business Intelligence**
->
-> **Objectif :** concevoir une chaîne décisionnelle complète permettant de transformer des données ouvertes en indicateurs métier et en tableau de bord interactif.
+> **Projet de Data Analysis & Business Intelligence.** : conception d'une chaîne décisionnelle complète
 >
 > **Technologies :** Python • MySQL • SQL • Power BI
 
@@ -9,7 +7,7 @@
 
 Les administrations et collectivités disposent de nombreuses données publiques sur la délinquance. Cependant, ces données sont difficilement exploitables sans un outil permettant de suivre les principaux indicateurs, de comparer les territoires et d'identifier les évolutions au cours du temps.
 
-L'objectif de ce projet est de concevoir une **chaîne décisionnelle complète**, depuis la préparation des données jusqu'à la réalisation d'un tableau de bord interactif destiné à faciliter l'analyse de la délinquance en France métropolitaine.
+L'objectif de ce projet est de concevoir une **chaîne décisionnelle**, depuis la préparation des données jusqu'à la réalisation d'un tableau de bord interactif destiné à faciliter l'analyse de la délinquance en France métropolitaine.
 
 ---
 
@@ -55,7 +53,6 @@ Principales étapes :
 - visualisations exploratoires
 
 Le notebook complet est disponible dans :
-
 ```
 codes/notebooks/01_exploration.ipynb
 ```
@@ -93,7 +90,6 @@ Le projet met en œuvre différentes techniques SQL :
 - contrôles qualité des données
 
 Les scripts sont disponibles dans :
-
 ```
 codes/sql/
 ```
@@ -102,16 +98,23 @@ codes/sql/
 
 ## Tableau de bord Power BI
 
-Le tableau de bord permet notamment de :
+Le tableau de bord restitue les principaux indicateurs issus des vues SQL et permet d'explorer les données par année et par catégorie de délinquance.
 
-- suivre les principaux indicateurs nationaux
-- comparer les départements
-- analyser les évolutions annuelles
-- comparer les régions
-- identifier les territoires les plus exposés
-- filtrer dynamiquement les résultats
+Il met en évidence les évolutions temporelles, la répartition territoriale des faits ainsi que les départements présentant les taux les plus élevés.
 
-![Dashboard](powerbi/dashboard.png)
+![Dashboard](images/dashboard.png)
+
+---
+
+## Résultats et enseignements
+
+On peut finalement retenir que :
+
+- les volumes enregistrés diffèrent fortement selon la nature de l’infraction ;
+- les territoires concentrant le plus grand nombre de faits ne sont pas nécessairement ceux présentant les taux les plus élevés ;
+- certains indicateurs connaissent des ruptures marquées, notamment autour de 2020 ;
+- la répartition régionale permet d’identifier rapidement les zones concentrant la plus forte part des faits ;
+- l’évolution annuelle facilite la détection des hausses ou diminutions récentes.
 
 ---
 
@@ -131,8 +134,7 @@ Le tableau de bord permet notamment de :
 - Vues SQL
 - CTE
 - Fonctions analytiques (`LAG`, `RANK`)
-- Window Functions
-- Contrôles qualité
+- Contrôles qualité des données
 
 ### Business Intelligence
 
@@ -145,20 +147,36 @@ Le tableau de bord permet notamment de :
 - Analyse exploratoire des données
 - Nettoyage et transformation des données
 - Visualisations
+
 ---
 
 ## Arborescence du projet
 
-```
+```text
 Crime-Dashboard/
-
-README.md
-
-codes/
-├── notebooks/
-└── sql/
-
-images/
-
-powerbi/
+├── README.md
+├── codes/
+│   ├── notebooks/
+│   └── sql/
+├── data/
+├── images/
+└── powerbi/
 ```
+
+---
+
+## Reproduire le projet
+
+1. Exécuter le notebook de préparation des données.
+2. Alimenter l'entrepôt de données MySQL.
+3. Exécuter les scripts SQL.
+4. Exporter les vues analytiques.
+
+---
+
+## Conclusion
+
+Ce projet illustre la conception d'une chaîne décisionnelle complète, depuis la préparation de données publiques jusqu'à la restitution d'indicateurs métier dans un tableau de bord interactif.
+
+Il met en œuvre des compétences en Python, SQL, modélisation décisionnelle et Business Intelligence pour transformer des données brutes en informations exploitables pour l'aide à la décision.
+
