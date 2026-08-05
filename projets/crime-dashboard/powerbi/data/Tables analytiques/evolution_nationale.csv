@@ -1,0 +1,163 @@
+annee,id_indicateur,indicateur,nombre_faits,nombre_faits_annee_precedente,evolution_pct
+2016,1,"Cambriolages de logement",240458,NULL,NULL
+2017,1,"Cambriolages de logement",245034,240458,1.90
+2018,1,"Cambriolages de logement",231033,245034,-5.71
+2019,1,"Cambriolages de logement",231162,231033,0.06
+2020,1,"Cambriolages de logement",185119,231162,-19.92
+2021,1,"Cambriolages de logement",185958,185119,0.45
+2022,1,"Cambriolages de logement",207370,185958,11.51
+2023,1,"Cambriolages de logement",212826,207370,2.63
+2024,1,"Cambriolages de logement",213550,212826,0.34
+2016,2,"Destructions et dégradations volontaires",612586,NULL,NULL
+2017,2,"Destructions et dégradations volontaires",611389,612586,-0.20
+2018,2,"Destructions et dégradations volontaires",590675,611389,-3.39
+2019,2,"Destructions et dégradations volontaires",590087,590675,-0.10
+2020,2,"Destructions et dégradations volontaires",505896,590087,-14.27
+2021,2,"Destructions et dégradations volontaires",517407,505896,2.28
+2022,2,"Destructions et dégradations volontaires",523624,517407,1.20
+2023,2,"Destructions et dégradations volontaires",537722,523624,2.69
+2024,2,"Destructions et dégradations volontaires",514516,537722,-4.32
+2016,3,"Escroqueries et fraudes aux moyens de paiement",245565,NULL,NULL
+2017,3,"Escroqueries et fraudes aux moyens de paiement",250933,245565,2.19
+2018,3,"Escroqueries et fraudes aux moyens de paiement",254488,250933,1.42
+2019,3,"Escroqueries et fraudes aux moyens de paiement",287868,254488,13.12
+2020,3,"Escroqueries et fraudes aux moyens de paiement",301854,287868,4.86
+2021,3,"Escroqueries et fraudes aux moyens de paiement",351837,301854,16.56
+2022,3,"Escroqueries et fraudes aux moyens de paiement",381326,351837,8.38
+2023,3,"Escroqueries et fraudes aux moyens de paiement",402726,381326,5.61
+2024,3,"Escroqueries et fraudes aux moyens de paiement",407702,402726,1.24
+2016,4,Homicides,796,NULL,NULL
+2017,4,Homicides,748,796,-6.03
+2018,4,Homicides,762,748,1.87
+2019,4,Homicides,777,762,1.97
+2020,4,Homicides,682,777,-12.23
+2021,4,Homicides,744,682,9.09
+2022,4,Homicides,824,744,10.75
+2023,4,Homicides,841,824,2.06
+2024,4,Homicides,825,841,-1.90
+2016,5,"Tentatives d'homicide",2024,NULL,NULL
+2017,5,"Tentatives d'homicide",2063,2024,1.93
+2018,5,"Tentatives d'homicide",2172,2063,5.28
+2019,5,"Tentatives d'homicide",2391,2172,10.08
+2020,5,"Tentatives d'homicide",2784,2391,16.44
+2021,5,"Tentatives d'homicide",2654,2784,-4.67
+2022,5,"Tentatives d'homicide",2968,2654,11.83
+2023,5,"Tentatives d'homicide",3408,2968,14.82
+2024,5,"Tentatives d'homicide",3516,3408,3.17
+2016,6,"Trafic de stupéfiants",39523,NULL,NULL
+2017,6,"Trafic de stupéfiants",42807,39523,8.31
+2018,6,"Trafic de stupéfiants",44034,42807,2.87
+2019,6,"Trafic de stupéfiants",45841,44034,4.10
+2020,6,"Trafic de stupéfiants",40262,45841,-12.17
+2021,6,"Trafic de stupéfiants",45429,40262,12.83
+2022,6,"Trafic de stupéfiants",47417,45429,4.38
+2023,6,"Trafic de stupéfiants",47133,47417,-0.60
+2024,6,"Trafic de stupéfiants",50452,47133,7.04
+2016,7,"Usage de stupéfiants",178206,NULL,NULL
+2017,7,"Usage de stupéfiants",184173,178206,3.35
+2018,7,"Usage de stupéfiants",182309,184173,-1.01
+2019,7,"Usage de stupéfiants",173238,182309,-4.98
+2020,7,"Usage de stupéfiants",156895,173238,-9.43
+2021,7,"Usage de stupéfiants",216816,156895,38.19
+2022,7,"Usage de stupéfiants",247038,216816,13.94
+2023,7,"Usage de stupéfiants",256490,247038,3.83
+2024,7,"Usage de stupéfiants",283352,256490,10.47
+2016,8,"Usage de stupéfiants (AFD)",0,NULL,NULL
+2017,8,"Usage de stupéfiants (AFD)",0,0,NULL
+2018,8,"Usage de stupéfiants (AFD)",0,0,NULL
+2019,8,"Usage de stupéfiants (AFD)",0,0,NULL
+2020,8,"Usage de stupéfiants (AFD)",28799,0,NULL
+2021,8,"Usage de stupéfiants (AFD)",103821,28799,260.50
+2022,8,"Usage de stupéfiants (AFD)",140948,103821,35.76
+2023,8,"Usage de stupéfiants (AFD)",158336,140948,12.34
+2024,8,"Usage de stupéfiants (AFD)",191423,158336,20.90
+2016,9,"Usage de stupéfiants (hors AFD)",178206,NULL,NULL
+2017,9,"Usage de stupéfiants (hors AFD)",184173,178206,3.35
+2018,9,"Usage de stupéfiants (hors AFD)",182309,184173,-1.01
+2019,9,"Usage de stupéfiants (hors AFD)",173238,182309,-4.98
+2020,9,"Usage de stupéfiants (hors AFD)",128096,173238,-26.06
+2021,9,"Usage de stupéfiants (hors AFD)",112995,128096,-11.79
+2022,9,"Usage de stupéfiants (hors AFD)",106090,112995,-6.11
+2023,9,"Usage de stupéfiants (hors AFD)",98154,106090,-7.48
+2024,9,"Usage de stupéfiants (hors AFD)",91929,98154,-6.34
+2016,10,"Violences physiques hors cadre familial",154115,NULL,NULL
+2017,10,"Violences physiques hors cadre familial",162137,154115,5.21
+2018,10,"Violences physiques hors cadre familial",173171,162137,6.81
+2019,10,"Violences physiques hors cadre familial",175518,173171,1.36
+2020,10,"Violences physiques hors cadre familial",158586,175518,-9.65
+2021,10,"Violences physiques hors cadre familial",172642,158586,8.86
+2022,10,"Violences physiques hors cadre familial",189667,172642,9.86
+2023,10,"Violences physiques hors cadre familial",194211,189667,2.40
+2024,10,"Violences physiques hors cadre familial",193634,194211,-0.30
+2016,11,"Violences physiques intrafamiliales",108338,NULL,NULL
+2017,11,"Violences physiques intrafamiliales",111960,108338,3.34
+2018,11,"Violences physiques intrafamiliales",123056,111960,9.91
+2019,11,"Violences physiques intrafamiliales",141378,123056,14.89
+2020,11,"Violences physiques intrafamiliales",155918,141378,10.28
+2021,11,"Violences physiques intrafamiliales",178806,155918,14.68
+2022,11,"Violences physiques intrafamiliales",206400,178806,15.43
+2023,11,"Violences physiques intrafamiliales",226702,206400,9.84
+2024,11,"Violences physiques intrafamiliales",232311,226702,2.47
+2016,12,"Violences sexuelles",49633,NULL,NULL
+2017,12,"Violences sexuelles",54507,49633,9.82
+2018,12,"Violences sexuelles",64749,54507,18.79
+2019,12,"Violences sexuelles",72114,64749,11.37
+2020,12,"Violences sexuelles",73888,72114,2.46
+2021,12,"Violences sexuelles",92326,73888,24.95
+2022,12,"Violences sexuelles",101932,92326,10.40
+2023,12,"Violences sexuelles",109486,101932,7.41
+2024,12,"Violences sexuelles",117435,109486,7.26
+2016,13,"Vols avec armes",8482,NULL,NULL
+2017,13,"Vols avec armes",8210,8482,-3.21
+2018,13,"Vols avec armes",7404,8210,-9.82
+2019,13,"Vols avec armes",7357,7404,-0.63
+2020,13,"Vols avec armes",6782,7357,-7.82
+2021,13,"Vols avec armes",6349,6782,-6.38
+2022,13,"Vols avec armes",6407,6349,0.91
+2023,13,"Vols avec armes",6448,6407,0.64
+2024,13,"Vols avec armes",6231,6448,-3.37
+2016,14,"Vols d'accessoires sur véhicules",105577,NULL,NULL
+2017,14,"Vols d'accessoires sur véhicules",100096,105577,-5.19
+2018,14,"Vols d'accessoires sur véhicules",94333,100096,-5.76
+2019,14,"Vols d'accessoires sur véhicules",89564,94333,-5.06
+2020,14,"Vols d'accessoires sur véhicules",73740,89564,-17.67
+2021,14,"Vols d'accessoires sur véhicules",76596,73740,3.87
+2022,14,"Vols d'accessoires sur véhicules",100161,76596,30.77
+2023,14,"Vols d'accessoires sur véhicules",91274,100161,-8.87
+2024,14,"Vols d'accessoires sur véhicules",94552,91274,3.59
+2016,15,"Vols dans les véhicules",262499,NULL,NULL
+2017,15,"Vols dans les véhicules",262354,262499,-0.06
+2018,15,"Vols dans les véhicules",260291,262354,-0.79
+2019,15,"Vols dans les véhicules",262228,260291,0.74
+2020,15,"Vols dans les véhicules",218413,262228,-16.71
+2021,15,"Vols dans les véhicules",219182,218413,0.35
+2022,15,"Vols dans les véhicules",239410,219182,9.23
+2023,15,"Vols dans les véhicules",248079,239410,3.62
+2024,15,"Vols dans les véhicules",248982,248079,0.36
+2016,16,"Vols de véhicule",160039,NULL,NULL
+2017,16,"Vols de véhicule",150645,160039,-5.87
+2018,16,"Vols de véhicule",139092,150645,-7.67
+2019,16,"Vols de véhicule",136459,139092,-1.89
+2020,16,"Vols de véhicule",118729,136459,-12.99
+2021,16,"Vols de véhicule",119001,118729,0.23
+2022,16,"Vols de véhicule",130056,119001,9.29
+2023,16,"Vols de véhicule",136430,130056,4.90
+2024,16,"Vols de véhicule",133869,136430,-1.88
+2016,17,"Vols sans violence contre des personnes",695148,NULL,NULL
+2017,17,"Vols sans violence contre des personnes",699997,695148,0.70
+2018,17,"Vols sans violence contre des personnes",690249,699997,-1.39
+2019,17,"Vols sans violence contre des personnes",710321,690249,2.91
+2020,17,"Vols sans violence contre des personnes",541227,710321,-23.81
+2021,17,"Vols sans violence contre des personnes",572720,541227,5.82
+2022,17,"Vols sans violence contre des personnes",649230,572720,13.36
+2023,17,"Vols sans violence contre des personnes",630490,649230,-2.89
+2024,17,"Vols sans violence contre des personnes",595927,630490,-5.48
+2016,18,"Vols violents sans arme",89666,NULL,NULL
+2017,18,"Vols violents sans arme",85416,89666,-4.74
+2018,18,"Vols violents sans arme",79804,85416,-6.57
+2019,18,"Vols violents sans arme",77995,79804,-2.27
+2020,18,"Vols violents sans arme",63252,77995,-18.90
+2021,18,"Vols violents sans arme",59658,63252,-5.68
+2022,18,"Vols violents sans arme",57351,59658,-3.87
+2023,18,"Vols violents sans arme",52057,57351,-9.23
+2024,18,"Vols violents sans arme",46105,52057,-11.43
