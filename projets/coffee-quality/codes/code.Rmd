@@ -1,0 +1,411 @@
+---
+title: Projet STA101: Etude de qualité d'un échantillon de café.
+Plusquellec Valérie
+output: html_notebook
+---
+
+# Chargement des libraries nécessaires
+
+```{r}
+library(dplyr)
+library(FactoMineR) 
+library(factoextra) 
+library(missMDA) 
+library(BioStatR) 
+library(DescTools) 
+library(stargazer) 
+library(questionr) 
+library(car)
+library(xtable) 
+```
+
+# Importation des données
+
+```{r}
+#importation
+data_cafe0 <- read.csv("data_cafe0.csv")
+#toutes les valeurs vides sont remplies par NA
+data_cafe0[data_cafe0 == ""] <- NA
+#Affichage du nombre d'individus et de variables
+dim(data_cafe0)
+```
+
+# Analyse univariée: traitement des données manquantes et inutiles
+
+```{r}
+#Affichage du début du tableau
+head(data_cafe0)
+#résumé univarié des données
+stargazer(data_cafe0,
+          summary.stat = c("n","min","p25","median","mean","p75","max","sd"),
+          type = "text")
+
+```
+
+```{r}
+#supression de la première colonne
+data_cafe1 <- data_cafe0 %>% select(-1)
+# conversion des colonnes qualitatives en facteurs
+data_cafe1 <- data_cafe1 %>%
+  mutate(across(where(is.character), as.factor))
+#supression des deux colonnes Sweetness et Clean.Cup
+data_cafe2 <- data_cafe1 %>% select(-Clean.Cup, -Sweetness)
+stargazer(data_cafe2,
+          summary.stat = c("n","min","p25","median","mean","p75","max","sd"),
+          type = "text")
+#vérification du nombre de valeurs manquantes
+colSums(is.na(data_cafe1))
+
+```
+
+```{r}
+# Imputation des données manquantes 
+res.impute <- imputeFAMD(data_cafe2, ncp = 5)
+data_cafe_imputed <- res.impute$completeObs
+
+stargazer(data_cafe_imputed,
+          summary.stat = c("n","min","p25","median","mean","p75","max","sd"),
+          type = "text")
+#vérification de l'absence de valeurs manquantes
+colSums(is.na(data_cafe_imputed))
+```
+
+```{r}
+# Identifier les variables qualitatives et quantitatives
+quali <- which(sapply(data_cafe_imputed, is.factor))  # Variables qualitatives
+quanti <- which(sapply(data_cafe_imputed, is.numeric))  # Variables quantitatives (toutes)
+
+# Spécifier les noms des variables quantitatives discrètes
+quanti.discr <- c("Category.One.Defects", "Quakers", "Category.Two.Defects")
+
+# Identifier les indices des variables discrètes et continues
+quanti.discr.indices <- which(names(data_cafe_imputed) %in% quanti.discr)  # Indices des discrètes
+quanti.cont.indices <- setdiff(quanti, quanti.discr.indices)  # Indices des continues
+
+```
+
+```{r}
+# Transformation logarithmique pour les variables quantitatives discrètes
+for (var in quanti.discr) {
+  data_cafe_imputed[[paste0(var, "_log")]] <- log(data_cafe_imputed[[var]] + 1)
+}
+```
+
+
+```{r}
+# Fusionner les nouvelles colonnes (discrètes transformées) et les variables continues
+# Sélection des nouvelles colonnes transformées
+quanti.discr.log <- paste0(quanti.discr, "_log")
+data_quant <- data_cafe_imputed[, c(names(data_cafe_imputed)[quanti.cont.indices], quanti.discr.log)]
+
+# Standardiser toutes les variables quantitatives (discrètes transformées et continues)
+data_quant_scaled <- as.data.frame(scale(data_quant))
+
+# Créer un dataframe combiné avec les variables qualitatives et quantitatives standardisées
+data_combined <- cbind(
+  data_cafe_imputed[, names(data_cafe_imputed)[quali]],  # Variables qualitatives
+  data_quant_scaled                                    # Variables quantitatives standardisées
+)
+data_cafe_final<- data_combined %>%
+  mutate(across(where(is.character), as.factor))
+
+quali <- which(sapply(data_cafe_final, is.factor))  # Variables qualitatives
+quanti <- which(sapply(data_cafe_final, is.numeric))  # Variables quantitatives (toutes)
+
+# Exportation les données traitées si besoin
+write.csv(data_cafe_final, "data_cafe_standardized.csv", row.names = FALSE)
+
+
+```
+
+
+```{r}
+
+####résumé univarié des variables quantitatives
+
+stargazer(data_cafe_final,
+          summary.stat = c("n","min","p25","median","mean","p75","max","sd"),
+          type = "text")
+```
+
+```{r}
+#### résumé univarié des variables qualitatives
+univ_quali <- lapply(data_cafe_final[,quali], freq)
+univ_quali
+```
+
+```{r}
+#Boîtes à moustaches
+par(mfrow=c(1,4))  
+mapply(data_cafe_final[, quanti],
+       names(data_combined[, quanti]), 
+              FUN = function(xx, nn){
+         Boxplot(xx, id.n = 2, ylab = "", main = nn)
+       })
+```
+
+```{r}
+
+mapply(data_cafe_final[,quali],
+       names(data_cafe_final[,quali]),  
+       FUN = function(xx, nn){
+         barplot(table(xx), main = nn)
+       })
+```
+
+# Analyse bivariée 
+## sur les variables quantitatives
+
+```{r}
+# scatterplot
+pairs(data_cafe_final[, quanti],cex=.2)
+```
+
+```{r}
+###lien entre variables quanti
+#Pearson
+matcor.pears <-cor(data_cafe_final[, quanti])
+PlotCorr(matcor.pears, cex.lab = par("cex.lab"), cex = 0.55)
+```
+
+```{r}
+#Spearman
+matcor.spear <- cor(data_cafe_final[, quanti],method = "spearman")
+PlotCorr(matcor.spear, cex.lab = par("cex.lab"), cex = 0.55)
+```
+#### ACP sur les variables sensorielles et défauts
+```{r}
+res.pca <- PCA(data_cafe_final[,c("Aroma","Flavor","Aftertaste","Acidity","Body","Balance","Overall","Category.One.Defects_log","Category.Two.Defects_log","Quakers_log")],
+               graph = FALSE)
+#valeurs propres
+res.pca$eig
+write.infile(res.pca$eig, file = "acp_vp.csv")
+# ébouli
+barplot(res.pca$eig[,1], las = 2)
+```
+
+```{r}
+#graphes des individus dans le premier plan
+plot.PCA(res.pca, choix = "ind",c(1,2))
+#graphes des variables dans le premier plan
+plot.PCA(res.pca, choix = "var",c(1,2))
+
+#graphes des individus dans un plan faisant apparaître la 3e composante
+plot.PCA(res.pca, choix = "ind",c(1,3))
+#graphes des variables dans un plan faisant apparaître la 3e composante
+plot.PCA(res.pca, choix = "var",c(1,3))
+```
+## sur les variables quantitatives/qualitatives
+
+```{r}
+####lien entre variables quanti et quali
+# creation d'une matrice vide avec en ligne les variables quantitatives et en colonne les variables qualitatives
+mateta2 <- matrix(NA,length(quali),length(quanti))
+rownames(mateta2) <- names(quali)
+colnames(mateta2) <- names(quanti)
+
+# calcul des différents eta carré
+for(ii in seq(nrow(mateta2))){
+  for(jj in seq(ncol(mateta2))){
+    mateta2[ii, jj]<-eta2(data_cafe_final[, colnames(mateta2)[jj]],
+                         data_cafe_final[, rownames(mateta2)[ii]])
+  }
+}
+
+```
+
+```{r}
+# affichage
+
+PlotCorr(mateta2,
+         border = NA,
+         cols = colorRampPalette(c("white", "steelblue"), space = "rgb")(15),
+         breaks = seq(0, 1, length=16),
+         cex.lab = par("cex.lab"), cex = 0.55*par("cex"),
+         args.colorlegend = list(labels = sprintf("%.1f", seq(0, 1, length = 11)), frame = TRUE))
+```
+
+## sur les variables qualitatives
+
+```{r}
+matcram <- PairApply(data_cafe_final[,c(quali)], CramerV, symmetric = TRUE)
+PlotCorr(matcram,
+         cols = colorRampPalette(c("white", "steelblue"), space = "rgb")(20),
+         breaks = seq(0, 1, length = 21),
+         cex.lab = par("cex.lab"), cex = 0.55,
+         args.colorlegend = list(labels=sprintf("%.1f", seq(0, 1, length = 11)), frame=TRUE))
+```
+```{r}
+## via des boîtes à moustaches
+Boxplot(Total.Cup.Points~Processing.Method, data = data_cafe_final)
+Boxplot(Total.Cup.Points~Processing.Method, data = data_cafe_final)
+Boxplot(Total.Cup.Points~Country.of.Origin, data = data_cafe_final)
+Boxplot(Total.Cup.Points~Variety, data = data_cafe_final)
+```
+
+
+
+# Classification
+CHOIX : on choisit de faire une classification des cafés selon leur profils géographique/méthodes/variété, en mettant en illustratifs toutes les variables sensorielles et les relevés de défauts
+
+```{r}
+var_illus <- c("Aroma","Flavor","Aftertaste","Uniformity","Acidity","Body","Balance","Overall","Total.Cup.Points","Category.One.Defects_log","Category.Two.Defects_log","Quakers_log")
+
+```
+
+```{r}
+res.famd <- FAMD(data_cafe_final,
+               ncp = Inf,
+               graph = FALSE,
+               sup.var = var_illus )
+```
+## Nombre de classes
+```{r}
+round(res.famd$eig, 3)
+write.csv(round(res.famd$eig, 3), file = "afdm_vp.csv")
+```
+
+```{r}
+barplot(res.famd$eig[,1], las = 2, cex.names = .5)
+```
+
+```{r}
+ncp <-39
+D <- dist(res.famd$ind$coord[,1:ncp]) #distance euclidienne entre observations
+res.hclust  <-  hclust(D,method = "ward.D2") #CAH par méthode de Ward
+```
+
+```{r}
+barplot(sort(res.hclust$height,decreasing = TRUE)[1:15],
+        names.arg = 1:15,
+        xlab = "index",
+        ylab = "hauteur de fusion")
+```
+
+## Consolidation
+
+```{r}
+#kmeans
+nbclasse <- 5
+partition <-  cutree(res.hclust, k = nbclasse) #élagage de l'arbre
+
+#Consolidation
+
+centres.gravite <- by(res.famd$ind$coord[,1:ncp],
+                      INDICES = partition,
+                      FUN = colMeans) 
+
+centres.gravite <- do.call(rbind, centres.gravite)#donne un objet de type "matrix", nécessaire pour pouvoir utiliser ces centres comme des valeurs initiales pour la fonction kmeans
+
+res.kmeans <- kmeans(res.famd$ind$coord[,1:ncp],
+                      centers = centres.gravite)
+
+part.finale <- as.factor(res.kmeans$cluster)
+```
+
+```{r}
+part.finale
+```
+
+```{r}
+table(part.finale)
+```
+
+
+```{r}
+data_cafe_part <- cbind.data.frame(data_cafe_final, classe = part.finale)#concaténation du jeu de données avec la nouvelle variable classe
+catdes(data_cafe_part, num = ncol(data_cafe_part))
+```
+
+```{r}
+res.famd <- FAMD(data_cafe_part,
+               ncp = Inf,
+               graph = FALSE,
+               sup.var =  c("classe","Aroma","Flavor","Aftertaste","Uniformity","Acidity","Body","Balance","Overall","Total.Cup.Points","Category.One.Defects_log","Category.Two.Defects_log","Quakers_log")) 
+write.infile(res.famd, file = "resultats_afdm.csv")
+```
+
+# AFDM
+
+## Nombre d’axes
+
+
+```{r}
+# Exclusion les colonnes spécifiées
+data_filtered <- data_cafe_part %>% select(-c(Aroma,Flavor,Aftertaste,Acidity,Balance,Body,Uniformity,Overall,Total.Cup.Points,Category.One.Defects_log,Category.Two.Defects_log,Quakers_log, classe))
+
+# Appliquer la fonction
+res.ncp <- estim_ncpFAMD(data_filtered,
+                         ncp.max = 10,
+                         method.cv = "Kfold",
+                         nbsim = 40)
+```
+
+```{r}
+plot(x = as.numeric(names(res.ncp$crit)),
+    y = res.ncp$crit,
+     xlab = "Nombre d'axes",
+     ylab = "Erreur",
+     main = "Erreur de validation croisée\n en fonction du nombre d'axes",
+     type = "b")
+```
+
+## Visualisation dans les plans
+
+```{r}
+#graphe des individus
+fviz_mfa_ind(res.famd, 
+             axes = c(1, 2),
+             habillage = "classe", 
+             palette = c("#FF0000B3", "#00CD00B3","#0000FFB3","#9633ff","#3ff")
+             )
+
+#graphe des centres des classes
+plot(res.famd,
+     choix = "quali",
+     invisible = c("quali","ind"),
+     axes = c(1,2)
+     )
+
+# graphe des individus qui contribuent le plus
+plot(res.famd,axes = c(1, 2), choix = "ind", invisible = "quali", select = "contrib 40")
+
+
+#graphe des variables qui contribuent le plus
+plot(res.famd,axes = c(1, 2), choix = "var", select = "contrib 15")
+
+#graphe des variables quantitatives
+plot(res.famd, axes = c(1, 2), choix = "quanti", select = "coord 5", cex=.7)
+
+
+res.dimdesc <- dimdesc(res.famd)
+lapply(res.dimdesc$Dim.1, round, 3)# pour la première dimension
+lapply(res.dimdesc$Dim.2, round, 3)# pour la seconde
+```
+```{r}
+#graphe des modalités
+plot(res.famd, choix = "quali", cex = .7)
+
+```
+
+```{r}
+fviz_mfa_ind(res.famd, 
+             axes = c(3, 4),
+             habillage = "classe", 
+             palette = c("#FF0000B3", "#00CD00B3","#0000FFB3","#9633ff","#3ff")
+             ) 
+plot(res.famd,
+     choix = "quali",
+     invisible = c("quali","ind"),
+     axes = c(3,4)
+     )
+plot(res.famd,axes = c(3, 4), choix = "ind", invisible = "quali", select = "contrib 40")
+plot(res.famd,axes = c(3, 4), choix = "var", select = "contrib 15")
+plot(res.famd, axes = c(3, 4), choix = "quanti", select = "coord 5", cex=.7)
+plot(res.famd, axes = c(3, 4), choix = "quali", cex = .7)
+lapply(res.dimdesc$Dim.3, round, 3)# pour la 3e dimension
+lapply(res.dimdesc$Dim.4, round, 3)# pour la 4e
+
+```
+``
+
