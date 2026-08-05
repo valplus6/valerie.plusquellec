@@ -59,14 +59,14 @@ Analyse statistique de données mixtes visant à identifier les profils de quali
 ## MES COMPÉTENCES TECHNIQUES
 
 #### Analyse de données et statistiques
-* Python : pandas, NumPy, matplotlib, seaborn
-* R : dplyr, ggplot2, FactoMineR, missMDA
+* Python (pandas, NumPy, matplotlib, seaborn)
+* R : (tidyverse, FactoMineR, missMDA)
 * Analyse exploratoire, réduction de dimension, classification et clustering
 
 #### Machine Learning et Deep Learning
-* Scikit-learn, TensorFlow, Keras, PyTorch
+* Scikit-learn, TensorFlow, PyTorch
 * Classification, régression et méthodes d’ensemble
-* Validation croisée, optimisation des modèles et interprétation des résultats
+* Validation croisée et optimisation des modèles
 
 #### Intelligence artificielle générative et NLP
 * Hugging Face et Transformers
@@ -76,17 +76,14 @@ Analyse statistique de données mixtes visant à identifier les profils de quali
 
 #### Business Intelligence et bases de données
 * SQL
+* MySQL
 * Power BI
-* MySQL et SQLite
+* Modélisation décisionnelle (schéma en étoile)
 * Construction de KPI et de tableaux de bord
 
 #### Data Engineering
-* Spark
-* Préparation et transformation de données
-
-#### Optimisation
-* Julia
-* GLPK
+* ETL et préparation et transformation de données
+* Spark (notions)
 
 #### Environnement et outils
 * Git et GitHub
