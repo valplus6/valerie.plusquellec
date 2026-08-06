@@ -1,5 +1,5 @@
 # Tableau de bord décisionnel de la délinquance en France
-> **Projet de Data Analysis & Business Intelligence.** : conception d'une chaîne décisionnelle complète
+> **Projet de Data Analysis & Business Intelligence.** 
 >
 > **Problématique** : comment présenter les données pour en faciliter l'analyse ?
 > 
