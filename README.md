@@ -24,7 +24,7 @@ Je conçois des solutions d’analyse de données et d’intelligence artificiel
 
 ## UNE SELECTION DE PROJETS
 
-#### 1. Tableau de bord décisionnel de la délinquance en France (Python • SQL • Power BI) [⁠Lien](projets/crime-dashboard)
+#### 1. Tableau de bord décisionnel de la délinquance en France (Python • SQL • Power BI) [⁠Dépôt Github]([projets/crime-dashboard](https://github.com/valplus6/valerie.plusquellec/tree/main/projets/crime-dashboard))
 ![Alt](projets/crime-dashboard/images/dashboard.png)
 
 Conception d’une chaîne décisionnelle complète à partir de données ouvertes : préparation et exploration des données sous Python, modélisation d’un entrepôt de données en schéma en étoile sous MySQL, création de vues SQL dédiées aux indicateurs métier et réalisation d’un tableau de bord interactif Power BI pour analyser les tendances nationales, les disparités territoriales et les principaux indicateurs de délinquance.
