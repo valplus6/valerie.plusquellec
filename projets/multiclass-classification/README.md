@@ -20,14 +20,15 @@ Ce projet étudie l'influence de différentes représentations d'un même jeu de
 
 ## Question étudiée
 
-**Une représentation adaptée des données permet-elle d'améliorer les performances d'une classification multi-classe ?**
+**Quelle représentation des données permet d'obtenir les meilleures performances pour une tâche de classification multi-classe ?**
 
-Pour répondre à cette question, plusieurs stratégies sont comparées :
+Pour répondre à cette question, plusieurs représentations sont comparées :
 
-- utilisation des variables originales ;
-- réduction de dimension par ACP ;
-- représentations construites à partir de différents blocs de variables ;
-- comparaison des performances obtenues.
+- les variables originales ;
+- les différents blocs de variables ;
+- les composantes factorielles obtenues par Analyse Factorielle Multiple (AFM).
+
+Ces différentes représentations sont ensuite utilisées pour entraîner et comparer plusieurs modèles de classification.
 
 ---
 
@@ -45,30 +46,29 @@ Cette structure permet d'étudier l'apport de différentes représentations dans
 
 ## Démarche
 
-Le projet suit une démarche progressive.
+Le projet suit une démarche expérimentale.
 
 ### 1. Comprendre les données
 
-- exploration des variables
-- statistiques descriptives
-- analyse des corrélations
+- exploration des différents blocs de variables ;
+- analyse descriptive.
 
-### 2. Construire des représentations
+### 2. Construire plusieurs représentations
 
-- ACP globale
-- ACP par blocs
-- comparaison des espaces factoriels
+- Analyse Factorielle Multiple (AFM) ;
+- extraction des composantes factorielles ;
+- comparaison avec les variables originales.
 
-### 3. Explorer la structure des classes
+### 3. Construire les modèles prédictifs
 
-- Classification Ascendante Hiérarchique
-- comparaison des regroupements
+- apprentissage supervisé ;
+- Random Forest ;
+- validation croisée.
 
-### 4. Construire un modèle prédictif
+### 4. Comparer les performances
 
-- Random Forest
-- validation croisée
-- comparaison des performances
+- évaluation des modèles selon la représentation utilisée ;
+- identification des représentations les plus pertinentes.
 
 ---
 
@@ -82,11 +82,17 @@ Le projet met ainsi en évidence l'intérêt d'une étape de réduction ou de tr
 
 ---
 
-## Illustration
+## Résultats
 
-![ACP](images/acp.png)
+Les performances des modèles ont été comparées selon plusieurs représentations des données :
 
-Les projections factorielles permettent de visualiser la structure des données avant la phase de modélisation.
+- variables originales ;
+- composantes issues de l'AFM ;
+- représentations par blocs.
+
+Cette comparaison met en évidence l'influence de la représentation des données sur les performances de classification.
+
+![Comparaison des modèles](images/comparaison_modeles.png)
 
 ---
 
@@ -138,6 +144,6 @@ multiclass-classification/
 
 ## Conclusion
 
-Ce projet illustre l'importance de la représentation des données dans une démarche de Machine Learning.
+Ce projet montre que la qualité d'un modèle de classification ne dépend pas uniquement de l'algorithme utilisé, mais également de la représentation des données en entrée.
 
-Au-delà de la construction d'un modèle prédictif, il montre qu'une analyse statistique préalable peut améliorer la qualité des performances tout en facilitant l'interprétation des résultats.
+Les expérimentations mettent en évidence que les composantes issues de l'Analyse Factorielle Multiple peuvent constituer une représentation plus pertinente que les variables originales pour certains modèles, tout en réduisant la dimension des données.
