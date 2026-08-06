@@ -1,9 +1,9 @@
-# Data Analyst & Data Scientist — BI, Machine Learning et IA
+# Data Analyst & Data Scientist
 [Me contacter](mailto:vplusquellec.data@gmail.com)
 ·
 [LinkedIn](https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/)
 
-Je conçois des solutions d’analyse de données et d’intelligence artificielle permettant d’éclairer la prise de décision, de la préparation des données jusqu’à la modélisation et à la restitution des résultats.
+Je conçois des solutions d’analyse de données, de Business Intelligence et de Machine Learning permettant de transformer des données en informations utiles à la décision.
 
 
 ***
@@ -33,7 +33,7 @@ Conception d’une chaîne décisionnelle complète à partir de données ouvert
 
 ***
 
-#### 2. Décision d'accorder ou non un crédit bancaire (Python) [Dépôt Github](https://github.com/valplus6/valerie.plusquellec/tree/59be597890ab683df66ab39e8d55b17fb60d62c2/projets/credit-risk)  
+#### 2. Prédiction du risque de crédit bancaire (Python) [Dépôt Github](https://github.com/valplus6/valerie.plusquellec/tree/20606ffb07358eeb74ead343c6e44be4c9b42fd6/projets/credit-risk)  
 ![Alt](img/classif.png)
 Développement d’un modèle prédictif de risque de crédit à partir de données bancaires : analyse exploratoire, comparaison de plusieurs modèles de classification (AFD, CART, AdaBoost, SVM RBF, MLP) et évaluation de leurs performances afin d’identifier la solution la plus adaptée à la décision d’octroi.
 
@@ -41,7 +41,7 @@ Développement d’un modèle prédictif de risque de crédit à partir de donn�
 
 ***
 
-#### 3. Classification multi-classe sur données complexes à haute dimension (R) [Dépôt Github](https://github.com/valplus6/valerie.plusquellec/tree/59be597890ab683df66ab39e8d55b17fb60d62c2/projets/multiclass-classification)
+#### 3. Classification multi-classe sur données de grande dimension (R) [Dépôt Github](https://github.com/valplus6/valerie.plusquellec/tree/20606ffb07358eeb74ead343c6e44be4c9b42fd6/projets/multiclass-classification)
 ![Alt](img/STA211.png)
 
 Réalisation d’une analyse statistique et prédictive sur des données de grande dimension combinant réduction de dimension, apprentissage non supervisé et classification supervisée afin d’étudier l’apport de différentes représentations des données sur les performances des modèles.
@@ -50,7 +50,7 @@ Réalisation d’une analyse statistique et prédictive sur des données de gran
 
 ***
 
-#### 4. Etude de la qualité du café (R) [Dépôt Github](https://github.com/valplus6/valerie.plusquellec/tree/59be597890ab683df66ab39e8d55b17fb60d62c2/projets/coffee-quality)
+#### 4. Analyse multidimensionnelle de la qualité du café (R) [Dépôt Github](https://github.com/valplus6/valerie.plusquellec/tree/20606ffb07358eeb74ead343c6e44be4c9b42fd6/projets/coffee-quality)
 ![Alt](img/clust2.png)
 Analyse statistique de données mixtes visant à identifier les profils de qualité du café à partir de caractéristiques sensorielles et physico-chimiques. Le projet combine analyse factorielle, classification et interprétation des groupes obtenus afin de proposer une typologie des cafés.
 
@@ -63,12 +63,12 @@ Analyse statistique de données mixtes visant à identifier les profils de quali
 #### Analyse de données et statistiques
 * Python (pandas, NumPy, matplotlib, seaborn)
 * R : (tidyverse, FactoMineR, missMDA)
-* Analyse exploratoire, réduction de dimension, classification et clustering
+* Analyse exploratoire • Statistiques multidimensionnelles • Classification et clustering
 
 #### Machine Learning et Deep Learning
 * Scikit-learn, TensorFlow, PyTorch
-* Classification, régression et méthodes d’ensemble
-* Validation croisée et optimisation des modèles
+* Classification • Régression  • Méthodes d’ensemble
+* Validation croisée • Sélection de modèles • Optimisation des hyperparamètres
 
 #### Intelligence artificielle générative et NLP
 * Hugging Face et Transformers
@@ -80,8 +80,8 @@ Analyse statistique de données mixtes visant à identifier les profils de quali
 * SQL
 * MySQL
 * Power BI
-* Modélisation décisionnelle (schéma en étoile)
-* Construction de KPI et de tableaux de bord
+* Modélisation relationnelle (schéma en étoile)
+* KPI et tableaux de bord
 
 #### Data Engineering
 * ETL et préparation et transformation de données
