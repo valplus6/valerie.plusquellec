@@ -1,6 +1,8 @@
 # Tableau de bord décisionnel de la délinquance en France
 > **Projet de Data Analysis & Business Intelligence.** : conception d'une chaîne décisionnelle complète
 >
+> **Problématique** : comment présenter les données pour en faciliter l'analyse ?
+> 
 > **Technologies :** Python • MySQL • SQL • Power BI
 
 ## Objectif du projet
