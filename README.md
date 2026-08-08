@@ -61,44 +61,39 @@ Analyse statistique de données mixtes visant à identifier les profils de quali
 ## MES COMPÉTENCES TECHNIQUES
 
 #### Analyse de données et statistiques
-* Python (pandas, NumPy, matplotlib, seaborn)
-* R : (tidyverse, FactoMineR, missMDA)
-* Analyse exploratoire • Statistiques multidimensionnelles • Classification et clustering
-
-#### Machine Learning et Deep Learning
-* Scikit-learn, TensorFlow, PyTorch
-* Classification • Régression  • Méthodes d’ensemble
-* Validation croisée • Sélection de modèles • Optimisation des hyperparamètres
-
-#### Intelligence artificielle générative et NLP
-* Hugging Face et Transformers
-* LLM, embeddings et recherche sémantique
-* NER et traitement automatique du langage
-* Notions et expérimentations autour des systèmes RAG et des agents IA
+* Python : pandas, NumPy, matplotlib, seaborn
+* R : tidyverse, FactoMineR, missMDA
+* Analyse exploratoire • Statistiques multidimensionnelles • Réduction de dimension • Classification et clustering
 
 #### Business Intelligence et bases de données
-* SQL
-* MySQL
+* SQL • MySQL
 * Power BI
-* Modélisation relationnelle (schéma en étoile)
-* KPI et tableaux de bord
+* Modélisation décisionnelle • Schéma en étoile
+* KPI • Tableaux de bord • Visualisation de données
+
+#### Machine Learning et Deep Learning
+* Scikit-learn • TensorFlow • PyTorch
+* Classification • Régression • Méthodes d’ensemble
+* Validation croisée • Sélection de modèles • Optimisation des hyperparamètres
+
+#### Intelligence artificielle et NLP
+* Hugging Face • Transformers
+* LLM • Embeddings • Recherche sémantique
+* NLP • NER
+* RAG • Agents IA (notions et expérimentations)
 
 #### Data Engineering
-* ETL et préparation et transformation de données
+* ETL • Préparation, nettoyage et transformation de données
 * Spark (notions)
 
 #### Environnement et outils
-* Git et GitHub
-* Docker
-* VS Code
-* Jupyter
-* RStudio
+* Git • GitHub • Docker
+* VS Code • Jupyter • RStudio
 * MySQL Workbench
 
 #### Langues
 * Français : langue maternelle
 * Anglais : niveau avancé
-
 ***
 
 ## MES FORMATIONS EN DATA
