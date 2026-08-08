@@ -22,8 +22,7 @@ Je conçois des solutions d’analyse de données, de Business Intelligence et d
 
 ***
 
-## MES PROJETS SELECTIONNÉS
-
+## UNE SÉLECTION DE MES PROJETS
 #### 1. Tableau de bord décisionnel de la délinquance en France (Python • SQL • Power BI) [⁠Dépôt Github](https://github.com/valplus6/valerie.plusquellec/tree/main/projets/crime-dashboard)
 ![Alt](projets/crime-dashboard/images/dashboard.png)
 
