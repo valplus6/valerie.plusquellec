@@ -66,7 +66,7 @@ Analyse statistique de données mixtes visant à identifier les profils de quali
 
 #### Business Intelligence et bases de données
 * SQL • MySQL
-* Power BI
+* Power BI • Excel
 * Modélisation décisionnelle • Schéma en étoile
 * KPI • Tableaux de bord • Visualisation de données
 
