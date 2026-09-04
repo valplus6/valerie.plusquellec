@@ -34,7 +34,7 @@ Conception d’une chaîne décisionnelle complète à partir de données ouvert
 
 ***
 
-#### 2. Système de recommandation sociale et cold-start (Python) [Dépôt GitHub](LIEN_VERS_LE_DEPOT)
+#### 2. Système de recommandation sociale et cold-start (Python) [Dépôt GitHub]([LIEN_VERS_LE_DEPOT](https://github.com/valplus6/valerie.plusquellec/tree/main/projets/recommandation-sociale)
 
 ![Comparaison des performances des modèles](projets/recommandation-sociale/images/resultats_modeles.png)
 
