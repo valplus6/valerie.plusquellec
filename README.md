@@ -38,7 +38,7 @@ Conception d’une chaîne décisionnelle complète à partir de données ouvert
 
 ![Comparaison des performances des modèles](projets/recommandation-sociale/images/resultats_modeles.png)
 
-Développement et comparaison de systèmes de recommandation sur plus de 1,2 million d’évaluations. Conception d’un protocole warm-start / cold-start et intégration d’un réseau de confiance à une factorisation matricielle afin d’étudier son apport lorsque les utilisateurs ne disposent d’aucun historique d’évaluation.
+Développement et comparaison de systèmes de recommandation sur plus de 1,2 million d’évaluations. Conception d’un protocole warm-start / cold-start et intégration d’un réseau de confiance à une factorisation matricielle pour étudier son apport lorsque les utilisateurs ne disposent d’aucun historique d’évaluation.
 
 *Outils : Python (pandas, NumPy, Matplotlib, scikit-learn)*
 
@@ -48,7 +48,7 @@ Développement et comparaison de systèmes de recommandation sur plus de 1,2 mil
 
 ![Prédiction du risque de crédit bancaire](img/classif.png)
 
-Développement d’un modèle prédictif de risque de crédit à partir de données bancaires : analyse exploratoire, comparaison de plusieurs modèles de classification (AFD, CART, AdaBoost, SVM RBF, MLP) et évaluation de leurs performances afin d’identifier la solution la plus adaptée à la décision d’octroi.
+Développement d’un modèle prédictif de risque de crédit à partir de données bancaires : analyse exploratoire, comparaison de plusieurs modèles de classification (AFD, CART, AdaBoost, SVM RBF, MLP) et évaluation de leurs performances pour identifier la solution la plus adaptée à la décision d’octroi.
 
 *Outils : Python (pandas, Matplotlib, seaborn, scikit-learn)*
 
@@ -58,7 +58,7 @@ Développement d’un modèle prédictif de risque de crédit à partir de donn�
 
 ![Classification multi-classe sur données de grande dimension](img/STA211.png)
 
-Réalisation d’une analyse statistique et prédictive sur des données de grande dimension combinant réduction de dimension, apprentissage non supervisé et classification supervisée afin d’étudier l’apport de différentes représentations des données sur les performances des modèles.
+Réalisation d’une analyse statistique et prédictive sur des données de grande dimension combinant réduction de dimension, apprentissage non supervisé et classification supervisée pour étudier l’apport de différentes représentations des données sur les performances des modèles.
 
 *Outils : R (FactoMineR, ggplot2, dplyr, randomForest, caret)*
 
