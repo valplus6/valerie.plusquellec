@@ -129,4 +129,4 @@ Les notebooks ont volontairement été conservés dans leur forme expérimentale
 
 ## Technologies
 
-**Python · pandas · NumPy · PyTorch · Matplotlib**
+**Python · pandas · NumPy · Matplotlib · scikit-learn**
