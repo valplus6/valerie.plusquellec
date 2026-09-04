@@ -34,13 +34,13 @@ Conception d’une chaîne décisionnelle complète à partir de données ouvert
 
 ***
 
-#### 2. Système de recommandation sociale et cold-start (Python • PyTorch) [Dépôt GitHub](https://github.com/valplus6/valerie.plusquellec/tree/main/projets/recommandation-sociale)
+#### 2. Système de recommandation sociale et cold-start (Python) [Dépôt GitHub](LIEN_VERS_LE_DEPOT)
 
 ![Comparaison des performances des modèles](projets/recommandation-sociale/images/resultats_modeles.png)
 
 Développement et comparaison de systèmes de recommandation sur plus de 1,2 million d’évaluations. Conception d’un protocole warm-start / cold-start et intégration d’un réseau de confiance à une factorisation matricielle afin d’étudier son apport lorsque les utilisateurs ne disposent d’aucun historique d’évaluation.
 
-*Outils : Python (pandas, NumPy, Matplotlib), PyTorch*
+*Outils : Python (pandas, NumPy, Matplotlib, scikit-learn)*
 
 ***
 
