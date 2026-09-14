@@ -4,7 +4,9 @@
 ·
 [LinkedIn](https://www.linkedin.com/in/valerie-plusquellec-65b83b33b/)
 
-Je conçois des solutions d’analyse de données, de Business Intelligence et de Machine Learning permettant de transformer des données en informations utiles à la décision.
+**De l’enseignement des mathématiques au monde de la data, mon objectif reste le même : comprendre, résoudre et rendre les choses utiles.**
+
+Aujourd’hui, j’utilise Python, SQL, la Business Intelligence et le Machine Learning pour explorer les données, construire des indicateurs et développer des modèles adaptés aux problèmes étudiés.
 
 ***
 
