@@ -127,5 +127,8 @@ Analyse statistique de données mixtes visant à identifier les profils de quali
 **MASTER TRIED (Traitement de l’Information et Exploitation des Données)**  
 2024-2026 | CNAM Paris, co-habilitation Paris-Saclay
 
+**ML-PRO**  
+2026-En cours | Machine Learnia
+
 **AGENT COURSE & LLM COURSE**  
 2025-2026 | Hugging Face
