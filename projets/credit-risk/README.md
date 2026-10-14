@@ -13,7 +13,7 @@ Les établissements bancaires doivent évaluer le risque associé à chaque dema
 
 L'objectif de ce projet est de construire un modèle capable de prédire si un demandeur présente un risque de crédit élevé à partir de ses caractéristiques personnelles, financières et professionnelles.
 
-Au-delà de la simple recherche de précision, le projet s'intéresse au coût métier des erreurs de classification en tenant compte du fait qu'accorder un crédit à un mauvais payeur est beaucoup plus coûteux que refuser un bon dossier. rapport.pdf
+Au-delà de la simple recherche de précision, le projet s'intéresse au coût métier des erreurs de classification en tenant compte du fait qu'accorder un crédit à un mauvais payeur est beaucoup plus coûteux que refuser un bon dossier.
 
 ---
 
@@ -27,7 +27,7 @@ Il comprend :
 - 20 variables explicatives
 - 13 variables qualitatives
 - 7 variables quantitatives
-- une variable cible binaire indiquant si le crédit est risqué ou non. rapport.pdf
+- une variable cible binaire indiquant si le crédit est risqué ou non. 
 
 ---
 
@@ -41,7 +41,7 @@ Les principales observations sont :
 - absence de corrélations linéaires fortes avec la variable cible ;
 - influence de certaines variables comme la durée du prêt, son montant ou l'âge de l'emprunteur.
 
-Ces résultats ont conduit au choix de modèles de classification supervisée capables de capturer des relations non linéaires.  [oai_citation:3‡rapport.pdf](sediment://file_000000003b9081f4bf1fd7ab6059c7d1)
+Ces résultats ont conduit au choix de modèles de classification supervisée capables de capturer des relations non linéaires.  
 
 ---
 
@@ -61,7 +61,7 @@ Les modèles comparés sont :
 - Forêt aléatoire
 - AdaBoost
 - SVM à noyau gaussien (RBF)
-- Perceptron multicouches (MLP). rapport.pdf
+- Perceptron multicouches (MLP). 
 
 ---
 
@@ -76,7 +76,7 @@ Les modèles ont été comparés à l'aide de plusieurs indicateurs :
 - F1-score
 - Matrice de confusion
 
-Une matrice de coût métier a également été utilisée afin de pénaliser davantage les faux négatifs, c'est-à-dire les mauvais payeurs considérés à tort comme fiables. rapport.pdf
+Une matrice de coût métier a également été utilisée afin de pénaliser davantage les faux négatifs, c'est-à-dire les mauvais payeurs considérés à tort comme fiables. 
 
 ---
 
@@ -84,7 +84,7 @@ Une matrice de coût métier a également été utilisée afin de pénaliser dav
 
 Les expérimentations montrent que les modèles non linéaires obtiennent les meilleures performances.
 
-Le SVM RBF présente le meilleur compromis entre capacité de discrimination et coût métier, tandis qu'AdaBoost obtient également d'excellents résultats grâce à son mécanisme de boosting séquentiel. rapport.pdf
+Le SVM RBF présente le meilleur compromis entre capacité de discrimination et coût métier, tandis qu'AdaBoost obtient également d'excellents résultats grâce à son mécanisme de boosting séquentiel. 
 
 ![Comparaison des modèles](images/comparaison_modeles.png)
 
