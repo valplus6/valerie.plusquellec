@@ -1,6 +1,6 @@
-# Data Analyst
+# Data Science & Analytics
 
-**Recherche de stage Data Analyst • 6 mois • Disponible à partir d’octobre 2026 • Île-de-France**
+**Recherche de stage dans la data • 6 mois • Disponible à partir de décembre 2026 • Île-de-France**
 
 [Me contacter](mailto:vplusquellec.data@gmail.com)
 ·
