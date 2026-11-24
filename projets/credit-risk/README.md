@@ -24,10 +24,8 @@ Le projet repose sur le jeu de données **Statlog (German Credit Data)** du dép
 Il comprend :
 
 - 1 000 demandes de crédit
-- 20 variables explicatives
-- 13 variables qualitatives
-- 7 variables quantitatives
-- une variable cible binaire indiquant si le crédit est risqué ou non. 
+- 20 variables explicatives (13 qualitatives et 7 quantitatives)
+- une variable cible binaire indiquant si le crédit a été remboursé ou non.
 
 ---
 
@@ -68,13 +66,13 @@ Les modèles comparés sont :
 ## Évaluation des modèles
 
 Les modèles ont été comparés à l'aide de plusieurs indicateurs :
-
+- Matrice de confusion
 - Accuracy
-- AUC
 - Précision
 - Rappel
+- AUC
 - F1-score
-- Matrice de confusion
+
 
 Une matrice de coût métier a également été utilisée afin de pénaliser davantage les faux négatifs, c'est-à-dire les mauvais payeurs considérés à tort comme fiables. 
 
