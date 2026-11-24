@@ -50,7 +50,7 @@ Toutes les méthodes reposent sur le même pipeline de traitement :
 - séparation apprentissage / test (70 % / 30 %) avec stratification ;
 - standardisation des variables numériques ;
 - encodage One-Hot des variables catégorielles ;
-- optimisation des hyperparamètres par validation croisée stratifiée (GridSearchCV).
+- optimisation des hyperparamètres par validation croisée stratifiée et GridSearchCV.
 
 Les modèles comparés sont :
 
@@ -70,17 +70,12 @@ Les modèles ont été comparés à l'aide de plusieurs indicateurs :
 - Accuracy
 - Précision
 - Rappel
-- AUC
-- F1-score
-
-
-Une matrice de coût métier a également été utilisée afin de pénaliser davantage les faux négatifs, c'est-à-dire les mauvais payeurs considérés à tort comme fiables. 
+- AUC de la courbe ROC
+- Coût métier pénalisant plus les faux négatifs.
 
 ---
 
 ## Résultats
-
-Les expérimentations montrent que les modèles non linéaires obtiennent les meilleures performances.
 
 Le SVM RBF présente le meilleur compromis entre capacité de discrimination et coût métier, tandis qu'AdaBoost obtient également d'excellents résultats grâce à son mécanisme de boosting séquentiel. 
 
@@ -99,8 +94,7 @@ Le SVM RBF présente le meilleur compromis entre capacité de discrimination et 
 ### Machine Learning
 
 - Classification supervisée
-- Validation croisée
-- Optimisation d'hyperparamètres (GridSearchCV)
+- Optimisation d'hyperparamètres (Validation croisée et GridSearchCV)
 - Gestion du déséquilibre des classes
 - Évaluation multicritère des modèles
 
