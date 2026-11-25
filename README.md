@@ -37,7 +37,7 @@ Conception d’une chaîne décisionnelle complète à partir de données ouvert
 
 ***
 
-### Analyse et prédiction du risque de crédit bancaire (Python) [Dépôt GitHub](https://github.com/valplus6/valerie.plusquellec/tree/20606ffb07358eeb74ead343c6e44be4c9b42fd6/projets/credit-risk)
+### Analyse et prédiction du risque de crédit bancaire (Python) [Dépôt GitHub](https://github.com/valplus6/valerie.plusquellec/tree/main/projets/credit-risk)
 
 ![Prédiction du risque de crédit bancaire](img/classif.png)
 
